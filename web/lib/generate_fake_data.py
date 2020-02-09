@@ -32,3 +32,26 @@ if CITY_NUM < CITY_TO_CREATE:
             populationcdf = populationcdf
         )
         city.save()
+
+# -- Create Customer Data --
+CUSTOMER_NUM = Customer.objects.all().count()
+CUSTOMERS_TO_CREATE = 100
+
+if CUSTOMER_NUM < CUSTOMERS_TO_CREATE:
+    for index in range(0, CUSTOMERS_TO_CREATE):
+        customer_id = 0
+        if Customer.objects.all().count() >= 1:
+            customer_id = Customer.objects.latest('customerid').customerid + 1
+
+        city = Customer(
+            customerid = customer_id,
+            phone = fake.phone_number(),
+            firstname = fake.first_name(),
+            lastname = fake.last_name(),
+            address = fake.address()[:50],
+            zipcode = fake.zipcode(),
+            cityid = City.objects.all()[random.randint(0, CITY_NUM-1)],
+            balancedue = random.randint(0,950)
+
+        )
+        city.save()
