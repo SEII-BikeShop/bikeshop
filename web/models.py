@@ -3,7 +3,9 @@
 #   * Rearrange models' order
 #   * Make sure each model has one field with primary_key=True
 #   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
-#   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
+#   * Remove `managed = False
+#   * managed = False
+# lines if you wish to allow Django to create, modify, and delete the table
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
 
@@ -40,6 +42,7 @@ class Bicycle(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'BICYCLE'
 
 
@@ -50,6 +53,7 @@ class Bicycletubeusage(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'BICYCLETUBEUSAGE'
         unique_together = (('serialnumber', 'tubeid'), ('serialnumber', 'tubeid'),)
 
@@ -65,6 +69,7 @@ class Bikeparts(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'BIKEPARTS'
         unique_together = (('serialnumber', 'componentid'), ('serialnumber', 'componentid'),)
 
@@ -77,6 +82,7 @@ class Biketubes(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'BIKETUBES'
         unique_together = (('serialnumber', 'tubename'), ('serialnumber', 'tubename'),)
 
@@ -96,6 +102,7 @@ class City(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'CITY'
 
 
@@ -105,6 +112,7 @@ class Commonsizes(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'COMMONSIZES'
         unique_together = (('modeltype', 'framesize'), ('modeltype', 'framesize'),)
 
@@ -128,6 +136,7 @@ class Component(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'COMPONENT'
 
 
@@ -138,6 +147,7 @@ class Componentname(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'COMPONENTNAME'
 
 
@@ -153,6 +163,7 @@ class Customer(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'CUSTOMER'
 
 
@@ -166,6 +177,7 @@ class Customertransaction(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'CUSTOMERTRANSACTION'
         unique_together = (('customerid', 'transactiondate'), ('customerid', 'transactiondate'),)
 
@@ -189,6 +201,7 @@ class Employee(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'EMPLOYEE'
 
 
@@ -198,6 +211,7 @@ class Groupcomponents(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'GROUPCOMPONENTS'
         unique_together = (('groupid', 'componentid'), ('groupid', 'componentid'),)
 
@@ -212,6 +226,7 @@ class Groupo(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'GROUPO'
 
 
@@ -221,6 +236,7 @@ class Letterstyle(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'LETTERSTYLE'
 
 
@@ -236,6 +252,7 @@ class Manufacturer(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'MANUFACTURER'
 
 
@@ -249,6 +266,7 @@ class Manufacturertransaction(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'MANUFACTURERTRANSACTION'
         unique_together = (('manufacturerid', 'transactiondate', 'reference'), ('manufacturerid', 'transactiondate', 'reference'),)
 
@@ -265,6 +283,7 @@ class Modelsize(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'MODELSIZE'
         unique_together = (('modeltype', 'msize'), ('modeltype', 'msize'),)
 
@@ -276,6 +295,7 @@ class Modeltype(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'MODELTYPE'
 
 
@@ -289,6 +309,7 @@ class Paint(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'PAINT'
 
 
@@ -300,6 +321,7 @@ class Preference(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'PREFERENCE'
 
 
@@ -312,6 +334,7 @@ class Purchaseitem(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'PURCHASEITEM'
         unique_together = (('purchaseid', 'componentid'), ('purchaseid', 'componentid'),)
 
@@ -329,6 +352,7 @@ class Purchaseorder(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'PURCHASEORDER'
 
 
@@ -344,6 +368,7 @@ class Retailstore(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'RETAILSTORE'
 
 
@@ -356,6 +381,7 @@ class Revisionhistory(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'REVISIONHISTORY'
 
 
@@ -367,6 +393,7 @@ class Samplename(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'SAMPLENAME'
 
 
@@ -376,6 +403,7 @@ class Samplestreet(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'SAMPLESTREET'
 
 
@@ -385,6 +413,7 @@ class Statetaxrate(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'STATETAXRATE'
 
 
@@ -394,6 +423,7 @@ class Tempdatemade(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'TEMPDATEMADE'
 
 
@@ -411,6 +441,7 @@ class Tubematerial(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'TUBEMATERIAL'
 
 
@@ -420,4 +451,5 @@ class Workarea(models.Model):
 
     class Meta:
         managed = False
+        app_label = 'bikeshop_web'
         db_table = 'WORKAREA'

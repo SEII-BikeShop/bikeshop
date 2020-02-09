@@ -1,1 +1,4 @@
-lib/config.py
+configs/config.py
+configs/__pycache__/*
+__pycache__
+*.pyc
