@@ -1,0 +1,62 @@
+"MANUFACTURERID","MANUFACTURERNAME","CONTACTNAME","PHONE","ADDRESS","ZIPCODE","CITYID","BALANCEDUE"
+1,"","","","","",0,
+2,"Shimano (USA)","Yoshi Tanaka","(818) 555-2424","8734 Sepulveda Blvd","90052",5857,354550.6
+3,"Time","Jean DeYoung","(201) 222-3345","862 Second Ave.","10001",3988,49426.35
+4,"Look","Susan Sonheim","(619) 333-5564","159 Pacific Drive","92109",5858,12548.76
+5,"Scott","Lon Smarlin","(408) 665-8987","652 Mountain View Lane","95035",513,10139.42
+6,"Specialized","Soon Zho","(509) 333-1264","354 Sound Line Lane","99210",5674,16673.85
+7,"Suntour (USA)","Jack Marshall","(513) 665-9854","157 Riverside Avenue","45234",4279,0
+8,"Mavic","Franz LeFleur","(201) 222-4321","845 South Harbor Way","07102",3600,63062.68
+9,"Selle","Sophia Marino","(804) 999-3512","352 East Cannon Lane","23320",5423,19923.98
+10,"Avocet","Mark Johnson","(603) 333-5235","152 Raccoon Way","03060",3408,17387.39
+11,"Sakae","Marylin Sophon","(404) 777-2534","462 Peach Tree Lane","30304",1368,8157.22
+12,"Sampson Sports","Rick Thompson","(719) 111-9352","925 Mountain View Drive","80901",5870,0
+13,"Kalloy","Pete Sousa","(413) 888-2522","707 Patriot Way","01002",2261,0
+14,"Profile","Miguel Sanchez","(214) 222-3523","187 Plains Lane","75260",5178,6657.26
+15,"Control Tech","Lisa Reinstaub","(802) 555-3533","376 Ski Down Avenue","05401",5549,10949.67
+16,"Campagnolo","David Biancheri","(619) 667-9980","909 West Haven Lane","92109",5858,152924.24
+17,"Sedis","Cathy Jurgalin","(410) 332-9832","935 Coast Highway","21234",2540,759.23
+18,"Rock Shox","Frank Selenium","(302) 222-9835","736 Corporate Way","19901",976,41552.62
+19,"Dia-Compe","Sarah Smith","(413) 444-3831","98 Veteran's Way","01101",2460,8190.98
+20,"Wheelsmith","Steven Alamad","(901) 777-1578","809 Elvis Drive","38101",5018,0
+21,"Michelin","Jacques Andreani","(202) 777-8883","607 Dupont Circle","20090",2669,0
+22,"Ritchey","Paul Kingstrom","(313) 333-2325","983 Apian Way","48233",2775,1413.57
+23,"Panaracer","Jorge Hanta","(505) 888-2351","834 Highland Drive","87501",3763,0
+24,"DT Swiss","Helmut Schmidt","(205) 999-4333","1568 Valley Street","35804",54,0
+25,"Chen Shen","Haiyan Liu","(415) 777-8092","5654 Bridge View Drive","94142",639,0
+26,"Sachs Maillard Aris","Gertrude Misenthau","(919) 111-3889","252 Tobacco Road","27611",3291,0
+27,"Onza","Marta Chen-itzu","(502) 444-5231","889 Derby Lane","40201",5878,1979.09
+28,"Grip Shift","Laurie Armstrong","(666) 333-2231","765 Lakeside Drive","53701",5914,0
+29,"Vetta","Maria de Marcos","(222) 333-4444","234 East Anglica","58102",3322,2718.21
+30,"Continental","Jacques DeLores","(888) 999-3373","254 East Elm Street","08401",3429,5063.55
+31,"White","Joan Smith","(508) 223-8233","9365 Mountain View Drive","01613",2510,0
+32,"Avid","Courtney Sidd","(719) 235-2323","876 Mountain View Avenue","80901",5870,0
+33,"Chen Shing (fictional)","Li Peng","(213) 973-6383","532 Oceanside Drive","90052",5857,99917.46
+34,"Kremlin Metalworks (fictional)","Vladimir Konstanz","(201) 523-8290","736 Portside Drive","07102",3600,85842.9
+35,"Wilderness Trail Bikes","Courtney Stevens","(719) 982-7342","637 Valley  Drive","80901",5870,0
+36,"Carbon Specialty","Lori Dunne","(602) 222-3333","1334 E. Riveside","85026",197,0
+37,"King","Chris King","(510) 339-9999","8765 S. Mountain Drive","94617",543,0
+38,"Cane Creek","Martha Mixte","(508) 331-9938","969 N. Plains","01970",2440,0
+39,"Syncros","Marie Bostra","(607) 333-8888","777 Violet Lane","14850",3924,15349.59
+40,"Cook Brothers","Steven Cook","(310) 736-8888","8762 Alameda Blvd.","90401",661,0
+41,"Bontrager","Mike Stevens","","837 W. Milwaukee Rd.","53566",5759,0
+42,"Spinergy","Marla Mason","(303) 777-2135","867 Aspen Creek Drive","80110",787,48766.79
+43,"Kestrel","Joan Beta","(617) 777-3839","9763 Real Road","02205",2483,0
+44,"Answer","Adam Chen","(714) 888-3938","3635 W. Mountain Blvd.","92607",456,1091.77
+45,"Marzocchi","Judith Franz","(510) 888-3733","736 E. Rim Ridge","94617",543,85794.55
+46,"TTT","Michael Cheng","(305) 333-2222","7653 W. Seashore Blvd.","33037",1139,1059.76
+47,"Cinelli","Arne Spoletti","(203) 999-3838","3837 Venice Blvd","06340",873,3570.69
+48,"Ibis","David Franklin","(201) 444-8765","876 W. Lakeside Dr.","07094",3669,5634.86
+49,"Litespeed","John Adams","(615) 333-6531","8763 Ocoee Blvd","37401",4969,21386.42
+50,"Dean Manufacturing","James Dean","(415) 888-3333","876 Eden Way","94305",691,3356.48
+51,"San Marco","Mary Malone","(508) 444-9282","873 East Lane","02360",2430,0
+52,"Tioga","Fred Simian","(303) 888-7777","876 Mountain Blvd","81301",786,11846.95
+53,"SRAM","Stan Day","(312) 664-8800","1333 N. Kingsbury, 4th floor","60622",5866,0
+54,"Race Face","Joe","(604) 527-9996","100-100 Braid St.","V3L 3P4",0,0
+55,"Easton Sports","Herb Tai","(818) 782-6445","7855 Haskell Avenue","91406",6540,0
+56,"Deda Elementi","Gabriele Masini","","via Leonardo Da Vinci, 21/23","26013",6598,0
+57,"Terry Precision Cycling","Georgena Terry","(800) 289-8379","1657 East Park Drive","14502",6599,0
+58,"Fox Racing","Todd Hicks","(408) 776-8633","18400 Sutter Boulevard","95037",526,0
+59,"Crank Brothers","Joe Crank","(949) 464-9916","21542 Ann's Lane","92651",455,0
+60,"Rolf","Joe Rolf","","","",0,0
+61,"Vittoria","","","","",0,0

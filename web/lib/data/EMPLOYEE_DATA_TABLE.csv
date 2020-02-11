@@ -1,0 +1,21 @@
+EMPLOYEEID,TAXPAYERIDENTIFIER,LASTNAME,FIRSTNAME,HOMEPHONE,ADDRESS,ZIPCODE,CITYID,DATEHIRED,DATERELEASED,CURRENTMANAGER,SALARYGRADE,SALARY,TITLE,WORKAREA
+0,000-00-0000,Unknown,,,,,0,,,0,0,0,,Unknown
+12512,888-22-5552,Cartom,Abdul,(603) 323-9893,252 South Street,3101,5862,11-Jul-89,,15293,8,22750,Painter/Artist,Paint
+15293,222-55-3737,Venetiaan,Roland,(804) 888-6667,937 Paramaribo Lane,23320,5423,23-Nov-93,,87295,19,54000,Production Manager,
+22343,293-87-4343,Johnson,John,(703) 222-9384,234 Main Street,22313,5402,2-Feb-93,,46583,9,23000,Purchasing Assistant,Purchase
+29387,837-36-2933,Stenheim,Susan,(410) 330-9837,8934 W. Maple,21234,2540,2-Nov-93,,87295,16,39000,Financial Manager,
+34192,383-73-9373,Schuba,Beatrix,(301) 967-6363,90 E. Ice Lane,21701,2573,29-Apr-88,,46583,6,18000,Marketing/Order Processing,Marketing
+37453,736-34-1198,Woolard,Edgar,(617) 774-1000,1007 Market Street,2109,2280,19-Feb-93,,15293,12,27000,Frame Builder/Engineer,Frame
+39571,222-55-9760,Ballen,Sixto,(804) 515-2528,925 E. Calle Way,23232,5499,7-Aug-93,,15293,7,20500,Assembler,Assembly
+46583,223-51-2358,Ochirbat,Punsalmaagiyn,(703) 973-6323,876 Darhan Road,22313,5402,15-Mar-89,,87295,18,42000,Marketing Manager,Marketing
+51512,515-35-1512,Jugnauth,Aneerood,(410) 442-4114,192 Prime Avenue,21401,2539,23-Sep-93,,88873,4,11000,Worker/Trainee,
+63535,272-62-3534,Trovoada,Miguel,(302) 736-3528,987 Tome Lane,19901,976,5-Oct-92,,15293,8,21000,Assembler,Assembly
+73735,111-88-9292,Bergeron,Candace,(410) 555-2212,525 E. Oak,21234,2540,22-May-89,,29387,10,24000,Purchasing Assistant,Purchase
+76432,887-36-2342,Slotzky,Mark,(301) 337-8492,487 Lois Lane,21701,2573,3-Mar-93,,15293,11,25500,Frame Builder/Engineer,Frame
+83736,363-63-5367,Loucks,Vernon,(804) 948-2000,1 Baxter Parkway,23660,5909,29-Dec-93,,15293,6,18500,Shipping Associate,Shipping
+87295,837-52-1135,Tudjman,Franjo,(202) 543-5586,2356 Massachusetts Avenue,20013,5927,23-May-90,,0,20,76000,Chief Executive Officer,
+88873,222-33-8748,Corazon,Mia,(703) 333-3323,8732 Oak Lane,22313,5402,10-Aug-93,,87295,16,38500,Inventory Manager,Inventory
+89097,986-73-9322,Dehaene,Jean-luc,(703) 909-7976,783 King's Road,22110,5476,3-Jan-93,,88873,4,13000,Worker/Trainee,
+90975,331-51-5138,Bedie,Henri,(410) 666-4282,9782 Ivory Street,21234,2632,10-Jul-91,,15293,6,18250,Shipping Associate,Shipping
+93736,837-36-2342,Green,John,(301) 763-3535,101 Prospect Avenue,20602,2649,24-Aug-88,,15293,9,23500,Painter/Artist,Paint
+98766,768-77-6349,Korowi,Wiwa,(802) 764-2546,1615 New Hampshire Avenue,5401,5549,16-Mar-91,,46583,5,16500,Marketing/Order Processing,Marketing

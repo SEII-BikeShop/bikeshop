@@ -1,0 +1,8 @@
+"ITEMNAME","VALUE","DESCRIPTION","DATECHANGED"
+"FrameCostPercent",0.5,"We pay this percent of list price for frame materials.",24-JUN-96
+"MaintainDiscount",-1,"Hold discount percent constant as list price changes (0 = No, -1=Yes)",20-MAY-95
+"OverheadFixed",500,"Minimum overhead charge",22-AUG-95
+"OverheadPercent",-0.05,"Desired overhead percentage or discount (neg), used to estimate list pricing",20-MAY-95
+"ShipPrice",70,"Base shipping and handling charge",20-MAY-95
+"TubePack",400,"Package size for buying frame tubes, in centimeters, approx. one bike",09-AUG-95
+"TubePackCut",250,"Cutoff for frame tubes, if mixed tubes, use entire package if over this #",09-AUG-95

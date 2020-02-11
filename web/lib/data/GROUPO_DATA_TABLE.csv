@@ -1,0 +1,36 @@
+"COMPONENTGROUPID","GROUPNAME","BIKETYPE","YEAR","ENDYEAR","WEIGHT"
+1,"Campy Record 1994","Road, Race, Track",1994,1996,0
+2,"Mavic 1994","Road, Race, Track",1994,1996,0
+3,"Shimano Dura Ace 1994","Road, Race, Track",1994,1996,0
+4,"Shimano Ultegra 600 1994","Road, Race, Tour",1994,1996,0
+5,"Shimano 105 1994","Road, Race, Tour",1994,1996,0
+6,"Shimano XT 1994","Mountain, Hybrid",1994,1996,0
+7,"Shimano LX 1994","Mountain, Hybrid",1994,1996,0
+8,"","",1994,2010,
+9,"Shimano XTR 1997","Mountain, Hybrid",1997,1998,0
+10,"Campy Record 1997","Road, Race, Track",1997,1998,0
+11,"Campy Chorus 1997","Road, Race, Tour",1997,1998,0
+12,"Shimano Dura Ace 1997","Road, Race, Track",1997,1998,0
+13,"Shimano Ultegra 600 1997","Road, Race, Tour",1997,1998,0
+14,"Shimano 105 1997","Road, Race, Tour",1997,1998,0
+16,"Shimano XT 1997","Mountain, Hybrid",1997,1998,0
+18,"Shimano LX 1997","Mountain, Hybrid",1997,1998,0
+19,"Campy Record 1999","Road, Race, Track",1999,2001,0
+20,"Campy Chorus 1999","Road, Race, Tour",1999,2001,0
+21,"Shimano Dura Ace 1999","Road, Race, Track",1999,2001,0
+22,"Shimano Ultegra 600 1999","Road, Race, Tour",1999,2001,0
+23,"Shimano 105 1999","Road, Race, Tour",1999,2001,0
+24,"Shimano XTR 1999","Mountain, Hybrid",1999,2001,0
+25,"Shimano XT 1999","Mountain, Hybrid",1999,2001,0
+26,"Shimano LX 1999","Mountain, Hybrid",1999,2001,0
+27,"Shimano Ultegra 6503 Triple 1999","Road",1999,2001,0
+28,"Campy Record 2002","Road, Race, Track",2002,2011,0
+29,"Campy Chorus 2002","Road, Race, Track",2002,2011,0
+30,"Shimano Dura Ace 2001","Road, Race, Track",2001,2011,0
+31,"Shimano Ultegra 2001","Road, Race, Track",2001,2011,0
+32,"Shimano Ultegra Triple 2001","Road, Race, Track, Tour",2001,2011,0
+33,"Shimano 105 2001","Road, Race, Track, Tour",2001,2011,0
+34,"Shimano XTR 2001","Mountain, Hybrid",2001,2011,4
+35,"Shimano XT 2001","Mountain, Hybrid",2001,2011,8
+36,"Shimano LX 2001","Mountain, Hybrid",2001,2011,4
+37,"Mountain Custom 2001","Mountain",2001,2011,5

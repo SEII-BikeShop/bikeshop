@@ -1,0 +1,535 @@
+COMPONENTID,MANUFACTURERID,PRODUCTNUMBER,ROAD,CATEGORY,LENGTH,HEIGHT,WIDTH,WEIGHT,YEAR,ENDYEAR,DESCRIPTION,LISTPRICE,ESTIMATEDCOST,QUANTITYONHAND
+1004020,15,ST-CT-120,MTB,Stem,120,0,1.125,170,1999,2001,"ATB stem, 120 mm ext, 1 1/8 tube",46,29.9,0
+1005000,15,ST-CT-135,MTB,Stem,135,0,1.125,176,1994,2001,"ATB stem for Ahead set, 135 mm ext 1 1/8 "" tube",46,29.9,58
+1005020,15,ST-CT-135,MTB,Stem,135,0,1.125,170,1999,2001,"ATB stem for Ahead set, 135 mm ext 1 1/8 "" tube",46,29.9,1217
+1006000,15,ST-CT-150,MTB,Stem,150,0,1.125,176,1994,2001,"ATB stem for Ahead Set, 150 mm ext, 1 1/8 tube",46,29.9,10
+1006020,15,ST-CT-150,MTB,Stem,150,0,1.125,170,1999,2001,"ATB stem for Ahead Set, 150 mm ext, 1 1/8 tube",46,29.9,0
+1007000,15,ST-CT-120,MTB,Stem,120,0,1.25,176,1994,2001,"ATB stem for Ahead Set, 120 mm ext, 1 1/4"" tube",46,29.9,4
+1008000,15,ST-CT-135,MTB,Stem,135,0,1.25,176,1994,2001,"ATB stem for Ahead Set, 135 mm ext, 1 1/4"" tube",46,29.9,10
+1009000,15,ST-CT-150,MTB,Stem,150,0,1.25,176,1994,2001,"ATB stem for Ahead Set, 150 mm ext, 1 1/4"" tube",46,29.9,10
+1010000,15,ST-CTR-90,Road,Stem,90,26,22.2,218,1994,2001,"Road stem, 90 mm ext",55,35.75,10
+1011000,15,ST-CTR-100,Road,Stem,100,26,22.2,218,1994,2001,"Road stem, 100 mm ext, 26 mm clamp",55,35.75,41
+1012000,15,ST-CTR-110,Road,Stem,110,26,22.2,218,1994,2001,"Road stem, 110 mm ext",55,35.75,492
+1013000,15,ST-CTR-120,Road,Stem,120,26,22.2,218,1994,2001,"Road stem, 120 mm ext",55,35.75,508
+1014000,11,ST-Sakae-40,Road,Stem,40,25.4,22.2,330,1994,2001,"Road stem, 40 mm ext, 22.2 mm column, 25.4 mm clamp",11,7.15,10
+1015000,11,ST-Sakae-80,Road,Stem,80,25.4,22.2,330,1994,2001,"Road stem, 80 mm ext, 25.4 mm clamp, 22.2 mm tube",11,7.15,131
+1016000,11,ST-Sakae-100,Road,Stem,100,25.4,22.2,330,1994,2001,"Road stem, 100 mm ext, 25.4 mm clamp, 22.2 mm tube",11,7.15,144
+1017000,5,ST-XYZ-110,Road,Stem,150,0,0,300,1994,2001,Basic stem,46,29.9,321
+1018000,48,ST-Ibis-Ti,Road,Stem,100,0,0,170,1999,2001,"Ibis Raw titanium stem, threaded",230,149.5,255
+1019000,49,ST-Lite-Pol-100,Road,Stem,100,0,0,170,1999,2001,Litespeed polished titanium,250,162.5,241
+1020000,49,ST-Lite-MTB,MTB,Stem,135,0,0,205,1999,2001,"Litespeed 3AL/2.5V titanium, 1.125 steerer",235,152.75,819
+1021000,56,ST-Deda-Newton,Road,Stem,120,0,0,144,2002,2011,Deda Newton threadless 1 1/8 inch,120,80,0
+1021010,56,ST-Deda-Newton,Road,Stem,110,0,0,144,2002,2011,Deda Newton threadless 1 1/8 inch,120,80,11
+1021020,56,ST-Deda-Newton,Road,Stem,100,0,0,144,2002,2011,Deda Newton threadless 1 1/8 inch,120,80,8
+1021100,55,ST-Easton-EM90,Road,Stem,120,0,0,170,2001,2011,Easton EM90 threadless 1 1/8in. 0 degree,150,125,0
+1021110,55,ST-Easton-EM90,Road,Stem,110,0,0,170,2001,2011,Easton EM90 threadless 1 1/8 in. 0 degree,150,125,13
+1021120,55,ST-Easton-EM90,Road,Stem,100,0,0,170,2001,2011,Easton EM90 threadless 1 1/8 in. 0 degree,150,125,0
+1021200,54,ST-RF-B,MTB,Stem,120,0,0,220,2001,2011,Race Face System threadless 1 1/8,90,63,10
+1021210,55,ST-Easton-MG60,MTB,Stem,120,0,0,205,2001,2011,Easton MG60 magnesium threadless 1 1/8,150,105,1
+1101000,16,SP-Record,Road,Seat post,180,0,25,242,1994,2001,"180 mm long, 25 mm tube",50,32.5,32
+1102000,16,SP-Record,Road,Seat post,180,0,26.8,242,1994,2001,"Seat post, 180 mm long, 26.8 mm tube",50,32.5,72
+1103000,11,SP-TCO2,,Seat post,350,0,26,350,1994,2001,"Seat Post, Aluminum, various tube sizes",16,10.4,84
+1104000,11,SP-TCO2,,Seat post,350,0,26.2,350,1994,2001,"Seat Post, Aluminum",16,10.4,136
+1105000,11,SP-TCO2,,Seat post,350,0,26.4,350,1994,2001,"Seat Post, Aluminum",16,10.4,130
+1106000,11,SP-TCO2,,Seat post,350,0,26.8,350,1994,2001,"Seat Post, Aluminum",16,10.4,144
+1107000,11,SP-TCO2,,Seat post,350,0,27,350,1994,2001,"Seat Post, Aluminum",16,10.4,676
+1108000,11,SP-TCO2,,Seat post,350,0,27.2,350,1994,2001,"Seat Post, Aluminum",16,10.4,409
+1109000,50,SP-Dean-Ti,MTB,Seat post,0,0,26.8,195,1999,2001,Dean Titanium lightweight,120,78,342
+1110000,39,SP-Syn-Ti,MTB,Seat post,0,0,26.8,195,1999,2001,Syncros Propost Titanium,125,81.25,826
+1111000,39,SP-Syn-Al,MTB,Seat post,330,0,26.8,232,1999,2001,Syncros Hardcore aluminum,85,55.25,78
+1112000,2,SP-DA,Road,Seat post,0,0,27.2,200,1999,2001,Shimano Dura Ace,80,52,249
+1113000,2,SP-UL,Road,Seat post,0,0,27.2,224,1999,2001,Shimano Ultegra,45,29.25,35
+1114000,16,SP-Campy-Rec,Road,Seat post,0,0,27.2,195,1999,2001,Campagnolo Record Titanium,120,78,259
+1115000,16,SP-Campy-R02,Road,Seat post,350,0,27.2,180,2002,2011,Record Carbon,125,85,13
+1115100,16,SP-Campy-C02,Road,Seat post,270,0,27.2,175,2002,2011,Chorus Ti,75,49,10
+1115500,2,SP-DA,Road,Seat post,270,0,27.2,195,2001,2011,Dura Ace,80,52,20
+1115600,55,SP-Easton-CT2,Road,Seat post,250,0,27.2,160,2001,2011,Easton CT2 Carbon Tech,120,85,8
+1115700,55,SP-Easton-CT2M,MTB,Seat post,350,0,27.2,180,2001,2011,Easton CT2 Carbon Tech,120,85,9
+1201000,10,SA-Gel-M,,Saddle,0,0,0,285,1994,2001,Men's Saddle,35,22.75,147
+1202000,10,SA-Gel-F,,Saddle,0,0,0,295,1994,2001,Women's saddle,35,22.75,10
+1203000,9,SA-Italia1,,Saddle,0,0,0,215,1994,2001,"Carbon rails, leather cover",138,89.7,74
+1204000,9,SA-Italia2,,Saddle,0,0,0,175,1994,2001,"Flite Carbon, leather, black",93,60.45,172
+1204020,9,SA-Italia2,,Saddle,0,0,0,215,1999,2001,"Selle Italia Flite, Titanium rails",70,50,1763
+1205000,29,SA-Veta-V,,Saddle,0,0,0,175,1994,2001,"Vanadium rails, leather, black",50,32.5,117
+1206000,29,SA-Veta-R,,Saddle,0,0,0,165,1994,2001,"Vetta Racing, Vanadium rails",50,32.5,50
+1207000,29,SA-Veta-M,,Saddle,0,0,0,270,1994,2001,"Gel saddle, Men's",15,9.75,88
+1208000,29,SA-Veta-F,,Saddle,0,0,0,270,1994,2001,"Gel saddle, Women's",15,9.75,10
+1209000,29,SA-Veta-G,,Saddle,0,0,0,270,1994,2001,"Gel saddle, ATB",15,9.75,114
+1210000,10,SA-Avo-F,,Saddle,0,0,0,225,1999,2001,Avocet O2 Air 40 Women's Saddle with Titanium rails,80,52,0
+1220000,10,SA-Avo-Cro,,Saddle,0,0,0,275,1999,2001,"Avocet O2 Air  40 Women's saddle, cro-moly rails",50,32.5,619
+1224000,10,SA-Avo-M,,Saddle,0,0,0,225,1999,2001,Avocet O2 Air 40 Ti Kevlar,100,65,1271
+1225000,51,SA-SM-Cro,,Saddle,0,0,0,235,1999,2001,"San Marco Concor Light, hollow cro-moly rails",55,35.75,0
+1230000,51,SA-SM-F,,Saddle,0,0,0,255,1999,2001,"San Marco Race Day--Pezzo's signature saddle, hollow cro-moly rails",70,45.5,0
+1231000,9,SA-Selle-SLR,,Saddle,0,0,0,140,2001,2011,Selle Italia SLR Ti/Carbon,130,91,10
+1231100,9,SA-Selle-Gel,,Saddle,0,0,0,230,2001,2011,Selle Italia Flite Gel/Ti,90,64,6
+1231200,57,SA-Terry-Bfly,,Saddle,0,0,0,242,2001,2011,Terry Butterfly Women/Ti,120,80,0
+1231210,57,SA-Terry-Liber,,Saddle,0,0,0,255,2001,2011,Terry Womens Liberator Ti-Race,75,45,0
+1301000,17,CH-Sedisa,,Chain,116,0,0,333,1994,2001,"Black chain, 116 links",7,4.55,89
+1302000,17,CH-Sedisb,MTB,Chain,116,0,0,335,1994,2001,"ATB Chain, 116 links, mushroomed pins",11,7.15,164
+1303000,2,CH-HG91,,Chain,114,0,0,305,1994,2001,"Hyperglide 91 chain, 114 links",17,11.05,434
+1303020,2,CH-HG91,,Chain,114,0,0,335,1999,2001,Shimano HG-91 chain,18,11.05,68
+1304000,17,CH-SedisCampy,Road,Chain,118,0,0,320,1994,2001,Sedis chain designed for Campy,20,13,100
+1305000,16,CH-Campy-R9,Road,Chain,0,0,0,280,1999,2001,Campy Record 9 speed,29,18.85,540
+1306000,2,CH-DA-XTR9,MTB,Chain,0,0,0,280,1999,2001,Dura-Ace and XTR 7000 9 speed,25,16.25,1099
+1307000,2,CH-HG92,,Chain,114,0,0,305,1999,2001,Shimano HG-92 9 speed chain,20,12,84
+1308000,16,CH-Campy-10,Road,Chain,0,0,0,279,2002,2011,Chain-10 speed,35,25,27
+1308100,53,CH-SRAM-PC99,,Chain,0,0,0,279,2001,2011,SRAM Power Chain PC99-9speed,35,24,30
+1308110,53,CH-SRAM-PC69,,Chain,0,0,0,279,2001,2011,SRAM Power Chain PC69 9 speed,25,18,0
+1,1,,,,0,0,0,0,1994,2001,Missing/Did not order,0,0,0
+220,33,FR-CroMoly-1.25,,Frame,400,0,1.25,0,1994,2001,"Base Cro-moly tube, measured in cm, bought in units to fit one bike",500,250,9.2
+230,33,FR-CroMoly-1.5,,Frame,400,0,1.5,0,1994,2001,"Cro-moly tube,",400,200,11.8
+240,33,FR-CroMoly-1.5Tri,,Frame,400,0,1.5,0,1994,2001,"Cro-moly tube, triangular",460,230,14
+320,33,FR-AL6061,,Frame,400,0,1.25,0,1994,2001,"Aluminum, Oval",640,300,12.4
+340,33,FR-ALProGram,,Frame,400,0,1.5,0,1994,2001,"Aluminum, Easton ProGram butted",560,280,9.9
+350,33,FR-AL7129,,Frame,400,0,1.25,0,1994,2001,"Aluminum, tapered",600,300,9.9
+410,33,FR-Carbon1,,Frame,400,0,1.125,0,1994,2001,"Carbon fiber, basic",800,390,10.4
+420,33,FR-CarbonOCLV,,Frame,400,0,1,0,1994,2001,"Carbon fiber, high density",1100,550,8.2
+530,34,FR-Ti-Std-1.25,,Frame,400,0,1.25,0,1994,2001,"Titanium, 3AL-2.5V",1520,760,6
+540,34,FR-Ti-Std-1-Oval,,Frame,400,0,1,0,1994,2001,"Titanium, 3AL-2.5V Oval",1600,800,6.9
+610,34,FR-MM-1.5-R,,Frame,400,0,1.5,0,1994,2001,"Metal Matrix, Round",700,350,10.7
+620,34,FR-MM-1.5-O,,Frame,400,0,1.5,0,1994,2001,"Metal Matrix, Oval",760,375,6.5
+800,36,FR-FS-URT-1,MTB,Frame,0,0,0,1362,1997,2001,Full suspension mountain bike frame,1500,975,0
+101000,2,HD-DA11,Road,Headset,0,37.6,1,100,1994,1998,Dura Ace Headset,76,49.4,79
+101020,2,HD-DA7410,Road,Headset,0,0,1,100,1999,2001,Shimano Dura-Ace 7410,68,44.2,250
+102000,2,HD-UL600,Road,Headset,0,37.6,1,100,1994,1998,Ultegra 600,40,26,174
+102020,2,HD-UL6500,Road,Headset,0,0,1,100,1999,2001,Shimano Ultegra 6500,36,23.4,889
+103000,2,HD-LX,MTB,Headset,0,37.6,1,147,1994,1998,"Deore LX 1""",20,13,6
+103500,2,HD-LX,MTB,Headset,0,37.6,1.125,185,1994,1998,"Oversize/1 1/8"" headset",25,16.25,660
+103520,2,HD-LX,MTB,Headset,0,37.6,1.125,163,1999,2001,"Oversize/1 1/8"" headset",20,14.25,0
+104000,2,HD-XT,MTB,Headset,0,37.6,1,115,1994,1998,"Deore XT 1"" size",46,29.9,51
+104300,2,HD-XT,MTB,Headset,0,37.6,1.125,127,1994,1998,"Deore XT over size (1 1/8"")",50,32.5,45
+104320,2,HD-XT,MTB,Headset,0,37.6,1.125,115,1999,2001,"Deore XT over size (1 1/8"")",35,18,629
+104800,2,HD-XT,MTB,Headset,0,39.9,1.25,143,1994,1998,"Deore XT oversize 1 1/4 """,55,35.75,10
+104900,2,HD-XTR,MTB,Headset,0,37.6,1.125,136,1999,2001,XTR 1 1/8 headset,75,50,834
+105000,8,HD-305,MTB,Headset,0,42,1,118,1994,1998,locking headset,96,62.4,10
+106000,16,HD-HDR,Road,Headset,0,39,1,153,1994,1998,Easy regreasing headset,78,50.7,113
+107000,19,HD-Aheadset,MTB,Headset,0,0,1,145,1994,2001,Threadless steerer tube,90,58.5,115
+107300,19,HD-Aheadset,MTB,Headset,0,0,1.125,165,1994,2001,"Oversize tube 1 1/8""  threadless",90,58.5,67
+107800,19,HD-Aheadset,MTB,Headset,0,0,1.25,186,1994,1998,"Oversize 1 1/4 "" requires threadless steerer tube",90,58.5,9
+108000,16,HD-Campy-R,Road,Headset,0,0,1,120,1999,2001,Campagnolo Record threaded headset,70,45.5,272
+109000,16,HD-Campy-RT,Road,Headset,0,0,1,120,1999,2001,Campagnolo Record threadless,70,45.5,264
+110000,35,HD-WTB,MTB,Headset,0,0,1.125,124,1999,2001,WTB Momentum threadless with grease guard,49,29,0
+111000,38,HD-CC-KS,MTB,Headset,0,0,1.125,126,1999,2001,"S-Series AheadSet (D2), sealed bearings",80,52,0
+111500,38,HD-CC-S4,MTB,Headset,0,0,1.25,126,1999,2001,S-Series AheadSet D2-sealed bearings,80,52,0
+112000,37,HD-King-AL,MTB,Headset,0,0,1.125,128,1999,2001,"Aluminum headset, 10 year warranty, no thread",115,74.75,0
+112500,37,HD-King-AL4,MTB,Headset,0,0,1.25,128,1999,2001,"Aluminum threadless, 10 year warranty",115,74.75,0
+113000,37,HD-King-Ti,Road,Headset,0,0,1,110,1999,2001,"6Al/4V titanium headset, threaded",195,126.75,0
+114000,16,HD-Campy-R2,Road,Headset,0,0,1,110,2002,2011,Record 2002 Threadless headset 1 1/8  inch,54,42,19
+114500,16,HD-Campy-C2,Road,Headset,0,0,1,111,2002,2011,Chorus 2002 Threadless headset 1 1/8  inch,45,36,12
+115000,37,HD-King-N1,Road,Headset,0,0,1,84,2002,2011,Chris King 2002 Threadless 1 1/8  inch,100,85,16
+115500,37,HD-King-N2,MTB,Headset,0,0,1.125,98,2002,2011,Chris King 2002 Threadless 1 1/8 inch,120,100,5
+116000,38,HD-CC-S21,Road,Headset,0,0,1,112,2002,2011,Cane Creek 2002 Threadless 1 inch,55,35,26
+116500,38,HD-CC-S22,MTB,Headset,0,0,1.125,119,2002,2011,Cane Creek 2002 Threadless,55,35,23
+201000,2,FD-DA7410,Road,Front derailleur,0,0,1,97,1994,1998,clamp-on or braze-on,46,29.9,86
+201020,2,FD-DA7700,Road,Front derailleur,0,0,1.125,95,1999,2001,Dura-Ace 7700 clamp on,45,29.25,255
+202000,2,FD-UL6401,Road,Front derailleur,0,0,1,107,1994,1998,"Ultegra 600, clamp on or braze on",20,13,109
+202020,2,FD-UL6500,Road,Front derailleur,0,0,1.125,105,1999,2001,Ultegra 6500 clamp on,28,18.2,358
+202500,2,FD-UL6503,Road,Front derailleur,0,0,1.125,105,1999,2001,Ultegra 6500 front derailleur for triple,30,19.5,97
+203000,2,FD-SC105,Road,Front derailleur,0,0,1,105,1994,1998,"SC-105, clamp-on or braze-on",18,11.7,128
+203020,2,FD-SC105,Road,Front derailleur,0,0,1,105,1999,2001,"SC-105, clamp-on or braze-on",18,11.7,478
+204000,2,FD-LX,MTB,Front derailleur,0,0,1.125,132,1994,1998,MTB select tube size,18,11.7,74
+204300,2,FD-LX,MTB,Front derailleur,0,0,1.25,132,1994,1998,Clamp on--get correct size,18,11.7,3
+204800,2,FD-LX,MTB,Front derailleur,0,0,1.375,132,1994,1998,Deore LX,18,11.7,105
+204820,2,FD-LX-570,MTB,Front derailleur,0,0,1.25,128,1999,2001,Deore LX,18,11.7,638
+205000,2,FD-XT,MTB,Front derailleur,0,0,1.125,133,1994,1998,Bottom pull,22,14.3,92
+205020,2,FD-XTM751,MTB,Front derailleur,0,0,1.25,123,1999,2001,XT front derailleur-9 speed compatible,25,16.25,632
+205300,2,FD-XT,MTB,Front derailleur,0,0,1.25,133,1994,1998,"1 1/8 tubes, bottom pull",22,14.3,10
+205800,2,FD-XT,MTB,Front derailleur,0,0,1.375,133,1994,1998,1 3/8 tubes bottom pull,22,14.3,65
+206000,8,FD860,MTB,Front derailleur,0,0,1,100,1994,1998,clamp on or braze on,74,48.1,4
+207000,16,FD-Record,Road,Front derailleur,0,0,1,100,1994,1998,"Campy Record, light weight",59,38.35,117
+208000,2,FD-XTR,MTB,Front derailleur,0,0,1.125,133,1997,1998,"Bottom pull, 1 1/8 in. clamp",48,31.2,92
+208500,2,FD-XTR,MTB,Front derailleur,0,0,1.25,133,1997,1998,"Bottom pull, 1 1/4 in. clamp",48,31.2,7
+208520,2,FD-XTR-M93,MTB,Front derailleur,0,0,1.25,117,1999,2001,"XTR, 9 speed compatible",47,30.55,844
+209000,16,FD-Campy-RC,Road,Front derailleur,0,0,1.125,125,1999,2001,Record clamp-on front derailleur,85,55.25,262
+209500,16,FD-Campy-RC4,Road,Front derailleur,0,0,1.25,125,1999,2001,Record clamp on front derailleur 1 1/4,85,55.25,0
+210000,16,FD-Campy-Ch,Road,Front derailleur,0,0,1.125,125,1999,2001,Chorus 1 1/8,70,45.5,272
+210500,16,FD-Campy-Ch4,Road,Front derailleur,0,0,1.25,125,1999,2001,Chorus clamp-on 1 1/4,70,45.5,0
+211000,16,FD-Campy-R2,Road,Front derailleur,0,0,0,91,2002,2011,Record 2002 Braze on for 10 speed,65,55,17
+211500,16,FD-Campy-C2,Road,Front derailleur,0,0,0,89,2002,2011,Chorus 2002 Braze on for 10 speed,50,35,13
+212000,2,FD-DA-01,Road,Front derailleur,0,0,0,73,2001,2011,Dura Ace Braze on,50,35,24
+212300,2,FD-UL-01,Road,Front derailleur,0,0,0,81,2001,2011,Ultegra Braze on,35,27,24
+212600,2,FD-UL3-01,Road,Front derailleur,0,0,0,88,2001,2011,Ultegra triple Braze on,45,36,18
+212800,2,FD-105-01,Road,Front derailleur,0,0,0,91,2001,2011,105 triple Braze on,35,22,20
+213000,2,FD-XTRB-01,MTB,Front derailleur,0,0,1.25,110,2001,2011,XTR bottom pull 1 1/4 inch,65,54,15
+213200,2,FD-XTB-01,MTB,Front derailleur,0,0,1.25,124,2001,2011,XT bottom pull top swing 1 1/4,30,20,31
+213400,2,FD-LXB-01,MTB,Front derailleur,0,0,1.25,128,2001,2011,LX bottom pull 1 1/4,22,16,24
+301000,2,RD-DA,Road,Rear derailleur,0,0,0,209,1994,1998,7/8 speed SIS max 26 Teeth,85,55.25,77
+301020,2,RD-DA7700,Road,Rear derailleur,0,0,0,215,1999,2001,Dura Ace 7700,70,45.5,250
+302000,2,RD-UL6401,Road,Rear derailleur,0,0,0,215,1994,1998,"6, 7 & 8 speed Ultegra, SIS 28 Teeth max",38,24.7,93
+302020,2,RD-UL6500,Road,Rear derailleur,0,0,0,215,1999,2001,Ultegra rear derailleur,45,29.25,884
+303000,2,RD-SC105,Road,Rear derailleur,0,0,0,247,1994,1998,"7/8 speed SIS, 28 Teeth max",30,19.5,114
+304000,2,RD-LX,MTB,Rear derailleur,0,0,0,285,1994,1998,"7 speed SIS, 32 Teeth max",30,19.5,102
+305000,2,RD-XT,MTB,Rear derailleur,0,0,0,235,1994,1998,"8 speed SIS, 32 Teeth max",38,24.7,97
+305020,2,RD-XTM750,MTB,Rear derailleur,0,0,0,255,1999,2001,XT 9 speed compatible,46,29.9,1217
+306000,8,RD-840,MTB,Rear derailleur,0,0,0,230,1994,1998,2014 Aluminum Alloy,167,108.55,10
+307000,8,RD-Zap,Road,Rear derailleur,0,0,0,350,1994,1996,"Zap Kit, electronic, including wire harness an dbuttons",600,390,9
+308000,16,RD-Record,Road,Rear derailleur,0,0,0,255,1994,1998,"Aluminum, 8 speed 26 Teeth max",150,97.5,100
+309000,2,RD-XTR,MTB,Rear derailleur,0,0,0,221,1997,2001,"Min 12, Max 32 teeth",85,55.25,79
+309020,2,RD-XTRM95,MTB,Rear derailleur,0,0,0,207,1999,2001,XTR 9 speed compatible,86,55.9,832
+310000,16,RD-Campy-R,Road,Rear derailleur,0,0,0,210,1999,2001,Campy Record,180,117,256
+311000,16,RD-Campy-Ch,Road,Rear derailleur,0,0,0,210,1999,2001,Campy chorus,120,78,268
+312000,16,RD-Campy-R2,Road,Rear derailleur,0,0,0,187,2002,2011,Record 2002 10 speed normal cage,175,157,10
+312200,16,RD-Campy-R2M,Road,Rear derailleur,0,0,0,193,2002,2011,Record 2002 10 speed long cage for 13/29 cassette,175,157,0
+312400,16,RD-Campy-C2,Road,Rear derailleur,0,0,0,209,2002,2011,Chorus 2002 10 speed normal cage,100,85,6
+312600,16,RD-Campy-C2M,Road,Rear derailleur,0,0,0,215,2002,2011,Chorus 2002 10 speed long cage for 13/29 cassette,100,85,0
+313000,2,RD-DA-01,Road,Rear derailleur,0,0,0,209,2001,2011,Dura Ace 9 speed,75,62,18
+313200,2,RD-UL-01,Road,Rear derailleur,0,0,0,215,2001,2011,Ultegra 9 speed,60,51,17
+313300,2,RD-UL3-01,Road,Rear derailleur,0,0,0,247,2001,2011,Ultegra triple 9 speed,65,55,14
+313400,2,RD-105-01,Road,Rear derailleur,0,0,0,260,2001,2011,105 triple 9 speed,50,40,13
+313600,2,RD-XTR-01,MTB,Rear derailleur,0,0,0,207,2001,2011,XTR 9 speed 34T,90,75,10
+313800,2,RD-XT-01,MTB,Rear derailleur,0,0,0,244,2001,2011,XT 9 speed 34T,55,46,17
+313900,2,RD-LX-01,MTB,Rear derailleur,0,0,0,286,2001,2011,LX 9 speed 34T,40,32,16
+314000,53,RD-SRAM9SL,MTB,Rear derailleur,0,0,0,254,2001,2011,SRAM 9.0 SL 9 speed,85,68,13
+401000,2,LV-DASTI,Road,Brakeset levers,49,0,0,480,1994,1998,"Dura-Ace, integrated levers",300,195,15
+401020,2,LV-DA7700,Road,Brakeset levers,0,0,0,550,1999,2001,Dura-Ace STI 7700,230,149.5,241
+402000,2,LV-600STI,Road,Brakeset levers,49,0,0,542,1994,1998,Integrated brake and shift levers,218,141.7,27
+402020,2,LV-UL6500,Road,Brakeset levers,0,0,0,550,1999,2001,Ultegra STI 6500,160,104,424
+403000,2,LV-105STI,Road,Brakeset levers,49,0,0,542,1994,1998,Integrated brake and shift levers,170,110.5,86
+403020,2,LV-105STI,Road,Brakeset levers,49,0,0,542,1999,2001,Integrated brake and shift levers,150,100.5,451
+404000,2,LV-LXRapid,MTB,Brakeset levers,0,0,0,387,1994,1998,"7-rear, 3-front, rapid fire integrated brake and shift",100,65,75
+405000,2,LV-XTRapid,MTB,Brakeset levers,0,0,0,385,1994,1998,Rapid Fire integrated brake and shift levers 8-rear 3-front,115,74.75,76
+405020,2,LV-XTM750,MTB,Brakeset levers,0,0,0,410,1999,2001,XT 9 speed compatible M750,100,65,1201
+406000,2,LV-XTR,MTB,Brakeset levers,0,0,0,411,1997,1998,"Rapid fire shift/brakeset, 8 speed, 2 finger",175,113.75,70
+406020,2,LV-XTRM952,MTB,Brakeset levers,0,0,0,414,1999,2001,XTR 9 speed compatible,175,113.75,822
+407000,16,LV-RecordErgo,Road,Brakeset levers,0,0,0,420,1994,1998,"Ergo Power levers, 8-rear 2/3-front",220,143,92
+407020,16,LV-Campy-R,Road,Brakeset levers,0,0,0,342,1999,2001,Record Ergo,320,208,253
+408000,16,SL-Campy-Ch,Road,Brakeset levers,0,0,0,400,1999,2001,Chorus Ergo,250,162.5,264
+409000,16,LV-Campy-E02,Road,Brakeset levers,0,0,0,342,2002,2011,Record 2002 Ergo levers 10 speed,225,200,9
+409500,16,LV-Campy-C02,Road,Brakeset levers,0,0,0,667,2002,2011,Chorus 2002 Ergo levers 10 speed,190,155,3
+410000,2,LV-DA-01,Road,Brakeset levers,0,0,0,432,2001,2011,Dura Ace STI 7700C 9 speed,250,215,10
+410200,2,LV-UL-01,Road,Brakeset levers,0,0,0,455,2001,2011,Ultegra STI 6510 9 speed double or triple,190,158,10
+410400,2,LV-105-01,Road,Brakeset levers,0,0,0,471,2001,2011,105 STI double or triple,170,139,3
+410600,2,LV-XTR-01,MTB,Brakeset levers,0,0,0,410,2001,2011,XTR 9 speed shift/brake combo,180,154,0
+410700,2,LV-XT-01,MTB,Brakeset levers,0,0,0,414,2001,2011,XT 9 speed shift/brake combo,100,78,11
+421000,2,SL-DA,Road,Shift levers,0,0,0,67,1994,1998,"Shift levers, Dura-Ace, 8-rear 2-front",50,32.5,75
+421020,2,SL-DABS77,Road,Shift levers,0,0,0,65,1999,2001,Dura Ace bar end shifters,55,35.75,0
+422000,2,SL-UL600,Road,Shift levers,0,0,0,67,1994,1998,Ultegra 600 8-rear 2-front,30,19.5,72
+423000,8,SL-821,Road,Shift levers,0,0,0,77,1994,1998,"Mavic, 8-rear, 2-front, braze-on",70,45.5,23
+424000,16,SL-Record,Road,Shift levers,0,0,0,115,1994,1998,"Record, 8-rear, 2-front, braze-on",35,22.75,31
+425000,28,SL-Grip7,MTB,Shift levers,0,0,0,135,1994,1998,"Grip Shift revolution, ATB shifting 7-rear, 3-front",55,35.75,10
+425020,28,SL-Grip8,MTB,Shift levers,0,0,0,135,1997,2001,"Grip shift revolution, 8-rear 3-front",60,39,7
+426000,2,SL-XTRM952,MTB,Shift levers,0,0,0,252,1999,2001,XTR 9 speed compatible,120,78,0
+427000,2,SL-XTM750,MTB,Shift levers,0,0,0,248,1999,2001,XT 9 speed compatible,70,45.5,0
+428000,2,SL-XTR-01,MTB,Shift levers,0,0,0,252,2001,2011,XTR shift only 9 speed,130,100,7
+428200,2,SL-XT-01,MTB,Shift levers,0,0,0,248,2001,2011,XT shift only 9 speed,80,65,0
+428700,53,SL-SRAM-ESP01,MTB,Shift levers,0,0,0,160,2001,2011,SRAM ESP 9.0 grip shift only with SRAM derailleur,65,47,18
+428800,53,SL-SRAM-01,MTB,Shift levers,0,0,0,200,2001,2011,SRAM 9 speed for Shimano or SRAM,65,47,0
+431000,32,BL-Avid,MTB,Brake levers,0,0,0,190,1994,2001,"Light, strong, colorful, adjustable brake levers",125,81.25,10
+432000,2,BL-XTR-01,MTB,Brake levers,0,0,0,166,2001,2011,XTR brake levers only,75,62,0
+432200,2,BL-XT-01,MTB,Brake levers,0,0,0,161,2001,2011,XT brake levers only,65,48,0
+432400,32,BL-Avid-Ti01,MTB,Brake levers,0,0,0,146,2001,2011,Speed dial Ti brake levers,65,48,0
+432500,32,BL-Avid-SD5,MTB,Brake levers,0,0,0,180,2001,2011,Speed dial brake levers,35,24,0
+432600,53,BL-SRAM-01,MTB,Brake levers,0,0,0,157,2001,2011,SRAM 9.0 brake levers,65,48,0
+501000,2,BR-DA,Road,Brakes,0,0,0,432,1994,1998,Dura-Ace brakes (without brake levers--use with STI),140,91,71
+501020,2,BR-DA7700,Road,Brakes,0,0,0,432,1999,2001,Dura-Ace (front and rear),163,105.95,243
+502000,2,BR-UL600,Road,Brakes,0,0,0,424,1994,2001,"Ultegra 600 brake set--without levers, use STI",50,32.5,87
+502020,2,BR-UL6500,Road,Brakes,0,0,0,424,1999,2001,Ultegra 6500 (front and rear),85,55.25,429
+503000,2,BR-SC105,Road,Brakes,0,0,0,360,1994,1998,"SC-105, brakes only-use with STI",40,26,108
+503020,2,BR-SC105,Road,Brakes,0,0,0,360,1999,2001,"SC-105, brakes only-use with STI",50,29,463
+504000,2,BR-LX,MTB,Brakes,0,0,0,358,1994,1998,"Cantilever brake, front and rear",32,20.8,101
+504020,2,BR-LX,MTB,Brakes,0,0,0,1090,1999,2001,"LX V-Brake, front and rear",32,20.8,626
+505000,2,BR-XT,MTB,Brakes,0,0,0,314,1994,1998,Front and rear cantilever brakes,60,39,87
+505020,2,BR-XTM750,MTB,Brakes,0,0,0,454,1999,2001,XT V-brake M750 (pair: front and rear),70,45.5,609
+506000,8,BR-451,MTB,Brakes,0,0,0,752,1994,1998,Brakeset--with levers,258,167.7,13
+507000,16,BR-Record,Road,Brakes,0,0,0,400,1994,1998,"Increased braking force, front and rear",190,123.5,96
+507020,16,BR-Campy-R,Road,Brakes,0,0,0,400,1999,2001,Campy Record (front and rear),200,130,255
+508000,19,BR-987,MTB,Brakes,0,0,0,530,1994,1998,MTB brakes with levers (not shifters),135,87.75,10
+509000,2,BR-XTR,MTB,Brakes,0,0,0,300,1997,1998,"Front and rear brakes, low profile",94,61.1,78
+509020,2,BR-XTRM951,MTB,Brakes,0,0,0,396,1999,2001,XTR V-brakes (pair: front and rear),95,61.75,830
+510000,32,BR-Tri-AlignII,MTB,Brakes,0,0,0,165,1994,2001,"Front and rear brakes, adjustable alignment,with Tri-Dangle cable hanger",220,143,10
+511000,16,BR-Campy-Ch,Road,Brakes,0,0,0,400,1999,2001,Campy Chorus (front and rear),126,81.9,268
+512000,16,BR-Campy-R2,Road,Brakes,0,0,0,355,2002,2011,Record 2002 brake calipers,185,153,10
+512200,16,BR-Campy-C2,Road,Brakes,0,0,0,340,2002,2011,Chorus 2002 brake calipers,125,100,5
+513000,2,BR-DA-01,Road,Brakes,0,0,0,313,2001,2011,Dura Ace 2001 brake calipers (pair),175,144,12
+513200,2,BR-UL-01,Road,Brakes,0,0,0,334,2001,2011,Ultegra 2001 brake calipers,95,75,17
+513300,2,BR-105-01,Road,Brakes,0,0,0,360,2001,2011,105 2001 brake calipers (pair),75,55,10
+513400,2,BR-XTR-01,MTB,Brakes,0,0,0,394,2001,2011,XTR V-brakes/pair,110,86,9
+513500,2,BR-XT-01,MTB,Brakes,0,0,0,424,2001,2011,XT V-brakes/pair,80,58,14
+513600,2,BR-LX-01,MTB,Brakes,0,0,0,440,2001,2011,LX V-brakes/pair,70,54,11
+513800,32,BR-Avid-Ti,MTB,Brakes,0,0,0,324,2001,2011,Single Digit Ti Brake,130,90,10
+513900,32,BR-Avid-SD5,MTB,Brakes,0,0,0,372,2001,2011,Single Digit Brakes/pair,60,44,0
+601000,2,CR-DA170,Road,Crank,170,0,0,589,1994,1998,39 x 53 teeth,180,117,68
+601020,2,CR-DA7700,Road,Crank,170,0,0,589,1999,2001,Dura-Ace with chain rings,193,125.45,242
+602000,2,CR-DA175,Road,Crank,175,0,0,589,1994,1998,"39 x 53 T, includes sprockets",180,117,10
+603000,2,CR-DA180,Road,Crank,180,0,0,589,1994,1998,39 x 53 includes sprockets,180,117,10
+604000,2,CR-UL600170,Road,Crank,170,0,0,650,1994,1998,39 x 53 teeth with sprocket,86,55.9,78
+604020,2,CR-UL6500,Road,Crank,170,0,0,650,1999,2001,Ultegra 6500 with chain rings,118,76.7,786
+604500,2,CR-UL600175,Road,Crank,175,0,0,650,1994,1998,39 x 53 teeth with sprockets,86,55.9,10
+605000,2,CR-105170,Road,Crank,170,0,0,686,1994,2001,39 x 53 teeth,76,49.4,97
+605500,2,CR-105175,Road,Crank,175,0,0,686,1994,1998,39 x 53 teeth,76,49.4,10
+606000,2,CR-LX170,MTB,Crank,170,0,0,681,1994,1998,22 x 32 x 42 teeth,70,45.5,10
+606500,2,CR-LX175,MTB,Crank,175,0,0,681,1994,1998,22 x 32 x 42 teeth,70,45.5,81
+607000,2,CR-XT170,MTB,Crank,170,0,0,694,1994,1998,22 x 32 x 42 teeth,160,104,10
+607020,2,CR-XTM750,MTB,Crank,175,0,0,722,1999,2001,XT 9 speed compatible,120,78,1198
+607500,2,CR-XT175,MTB,Crank,175,0,0,694,1994,1998,22 x 32 x 42 teeth,160,104,72
+607900,2,CR-XT180,MTB,Crank,180,0,0,694,1994,1998,22 x 32 x 42 teeth,160,104,10
+608000,8,CR-631170,Road,Crank,170,0,0,730,1994,1998,39 x 53 teeth,243,157.95,13
+608500,8,CR-631175,Road,Crank,175,0,0,730,1994,1998,39 x 53 teeth,243,157.95,10
+608900,8,CR-631180,Road,Crank,180,0,0,730,1994,1998,39 x 53 teeth,243,157.95,10
+609000,16,CR-Record170,Road,Crank,170,0,0,707,1994,1998,39 x 53 teeth,200,130,97
+609020,16,CR-Campy-R,Road,Crank,170,0,0,710,1999,2001,Campy Record with chain rings,240,156,254
+609500,16,CR-Record175,Road,Crank,175,0,0,707,1994,1998,39 x 53 teeth,200,130,10
+609900,16,CR-Record180,Road,Crank,180,0,0,707,1994,1998,39 x 53 teeth,200,130,10
+610000,12,CR-SAM170,Road,Crank,170,0,0,420,1994,1998,Crank/road 39 x 53 rings added,230,149.5,10
+611000,2,CR-XTR,MTB,Crank,175,0,0,697,1997,1998,26/36/48 teeth gears,260,169,65
+611020,2,CR-XTRM952,MTB,Crank,175,0,0,685,1999,2001,XTR 9 speed compatible,270,175.5,817
+612000,16,CR-Campy-Ch,Road,Crank,170,0,0,710,1999,2001,Campy Chorus with chain rings,126,81.9,268
+613000,2,CR-UL6503,Road,Crank,170,0,0,750,1999,2001,Ultegra triple with chain rings,125,81.25,90
+614000,40,CR-Cook-E2,MTB,Crank,175,0,0,657,1999,2001,"Cold forged 7075 T6 alloy, with 58/94 mm spider, with Avitar chain rings",290,188.5,3
+615000,41,CR-Bon-RL,MTB,Crank,175,0,0,695,1999,2001,"Race Lite crank 2014 T-6 AL, 44x32x22 T 7075 chain rings",250,162.5,0
+616000,16,CR-Campy-R02,Road,Crank,170,0,0,632,2002,2011,Record 2000 10 speed 39/53,190,150,10
+616200,16,CR-Campy-C01,Road,Crank,170,0,0,667,2002,2011,Chorus 2000 10 speed 39/53,120,89,5
+616300,2,CR-DA-01,Road,Crank,170,0,0,599,2001,2011,Dura Ace 39/53,220,175,11
+616400,2,CR-UL-01,Road,Crank,170,0,0,643,2001,2011,Ultegra double 39/53,135,98,12
+616500,2,CR-UL3-01,Road,Crank,170,0,0,760,2001,2011,Ultegra triple 30/42/52,135,99,10
+616600,2,CR-105-01,Road,Crank,170,0,0,742,2001,2011,105 triple 30/42/52,120,85,6
+617000,2,CR-XTR-01,MTB,Crank,175,0,0,685,2001,2011,XTR 24/34/46-requires XTR BB,300,240,1
+617200,2,CR-XT-01,MTB,Crank,175,0,0,647,2001,2011,XT 22/32/44,125,99,9
+617300,2,CR-LX-01,MTB,Crank,175,0,0,656,2001,2011,LX 22/32/44,75,58,11
+701000,2,BB-DAE,Road,Bottom bracket,103,0,68,230,1994,1998,Dura Ace English thread,45,29.25,88
+701020,2,BB-DA7700,Road,Bottom bracket,109.5,0,68,230,1999,2001,Dura-Ace,43,27.95,40
+702000,2,BB-DAI,Road,Bottom bracket,103,0,68,230,1994,1998,"Dura Ace, Italian thread",45,29.25,10
+702020,2,BB-UL6500,Road,Bottom bracket,109.5,0,68,230,1999,2001,Ultegra 6500,30,19.5,808
+703000,2,BB-XT71,MTB,Bottom bracket,107,0,68,272,1994,1998,English thread only,20,13,116
+704000,2,BB-XT71,MTB,Bottom bracket,113,0,68,272,1994,1998,English thread only--check sizes,20,13,100
+705000,2,BB-XT71,MTB,Bottom bracket,107,0,73,272,1994,1998,"English, oversize BB",20,13,73
+706000,2,BB-UN71,Road,Bottom bracket,115,0,68,272,1994,1998,"English thread, use with Ultegra 600 crank",20,13,199
+706020,2,BB-XT-UN72,MTB,Bottom bracket,113,0,68,242,1999,2001,XT UN72,20,13,716
+707000,2,BB-UL71,Road,Bottom bracket,115,0,70,272,1994,1998,"Italian thread, use with Ultegra 600 crank",20,13,10
+708000,8,BB-610,MTB,Bottom bracket,114,0,0,300,1994,1998,"Use with any bike, needs special installation tool",97,63.05,20
+709000,16,BB-RecordE,Road,Bottom bracket,0,0,0,277,1994,1998,"Use with Campy/Record crank, English thread",75,48.75,66
+709020,16,BB-Campy-R,Road,Bottom bracket,0,0,0,277,1999,2001,Campy Record,98,63.7,260
+710000,16,BB-RecordL,Road,Bottom bracket,0,0,0,277,1994,1998,"Use with Campy/Record crank, Italian thread",75,48.75,54
+711000,12,BB-SAM,Road,Bottom bracket,103,0,68,170,1994,1998,English thread,95,61.75,10
+712000,12,BB-SAM,MTB,Bottom bracket,108,0,68,170,1994,1998,English thread,95,61.75,10
+713000,12,BB-SAM,MTB,Bottom bracket,112,0,70,170,1994,1998,Italian threads,95,61.75,10
+714000,12,BB-SAM,MTB,Bottom bracket,103,0,68,139,1994,1998,Stratics/titanium (6/4),125,81.25,9
+715000,12,BB-SAM,MTB,Bottom bracket,108,0,68,139,1994,1998,Stratics/titanium English thread,125,81.25,10
+716000,12,BB-SAM,MTB,Bottom bracket,103,0,70,139,1994,1998,"Stratics/titanium, Italian thread",125,81.25,6
+717000,2,BBUN91,MTB,Bottom bracket,107,0,0,255,1994,1998,Sealed cartridge bottom bracket,50,32.5,91
+718000,16,BB-Campy-Ch,Road,Bottom bracket,0,0,0,277,1999,2001,Campy Chorus,70,45.5,272
+719000,2,BB-UL6503,Road,Bottom bracket,0,0,0,242,1999,2001,Ultegra 6500 for triple,33,21.45,29
+720000,2,BB-XTRM952,MTB,Bottom bracket,0,0,0,185,1999,2001,XTR M952,40,26,848
+721000,39,BB-SYN-IBL,MTB,Bottom bracket,107,0,0,165,1999,2001,Titanium double bearing,225,146.25,5
+722000,16,BB-Campy-R02,Road,Bottom bracket,0,0,0,190,2002,2011,Record 2002 Campy spline,75,60,16
+722100,16,BB-Campy-C02,Road,Bottom bracket,0,0,0,220,2002,2011,Chorus 2002 Campy spline,45,29,15
+722500,2,BB-ES70,MTB,Bottom bracket,113,0,68,255,2001,2011,XT Spline,30,20,37
+722600,54,BB-RFTaper,MTB,Bottom bracket,110,0,68,166,2001,2011,Race Face Taper Lock Titanium,140,115,0
+801000,2,CG-DA8-21,Road,Rear cogs,0,0,0,255,1994,1998,12-13-14-15-16-17-19-21 teeth,43,27.95,88
+802000,26,CG-Sachs8,Road,Rear cogs,0,0,0,255,1994,1998,"12 x 24 teeth, 8 speed",43,27.95,10
+803000,2,CG-DA8-23,Road,Rear cogs,0,0,0,255,1994,1998,12-13-14-15-17-19-21-23 teeth,43,27.95,10
+803020,2,CG-DA7700,Road,Rear cogs,0,0,0,275,1999,2001,Dura-Ace 9 speed,70,45.5,250
+804000,2,CG-UL8-21,Road,Rear cogs,0,0,0,250,1994,1998,12-13-14-15-16-17-19-21 teeth,30,19.5,63
+804500,2,CG-UL8-23,Road,Rear cogs,0,0,0,250,1994,1998,12-13-14-15-17-19-21-23 teeth,30,19.5,165
+804520,2,CG-UL6500,Road,Rear cogs,0,0,0,280,1999,2001,Ultegra 6500 9 speed,38,24.7,888
+804800,2,CG-UL8-25,Road,Rear cogs,0,0,0,278,1994,1998,12-13-15-17-19-21-23-25 teeth,30,19.5,10
+805000,2,CG-XT8-28,MTB,Rear cogs,0,0,0,256,1994,1998,11 - 28 teeth,42,27.3,95
+805020,2,CG-XTM750,MTB,Rear cogs,0,0,0,260,1999,2001,XT 9 speed M750,40,26,623
+806000,2,CG-LX7-28,MTB,Rear cogs,0,0,0,297,1994,1998,11 - 28 teeth,23,14.95,111
+807000,8,CG-571-19,MTB,Rear cogs,0,0,0,210,1994,1998,12-13-14-15-16-17-19 teeth,66,42.9,24
+808000,8,CG-571-21,MTB,Rear cogs,0,0,0,210,1994,1998,12 - 21 teeth,66,42.9,10
+809000,8,CG-571-23,MTB,Rear cogs,0,0,0,210,1994,1998,12 - 23 teeth (7 speed),66,42.9,10
+810000,16,CG-Record8-19,Road,Rear cogs,0,0,0,270,1994,1998,12-13-14-15-16-17-18-19,40,26,31
+810020,16,CG-Campy-RS,Road,Rear cogs,0,0,0,270,1999,2001,Campy Record 9 speed ti/steel,120,78,0
+810500,16,CG-Campy-R,Road,Rear cogs,0,0,0,270,1999,2001,Campy Record 9 speed titanium,240,156,254
+811000,16,CG-Record8-21,Road,Rear cogs,0,0,0,270,1994,1998,12 x 21 teeth,40,26,73
+812000,16,CG-Record8-23,Road,Rear cogs,0,0,0,270,1994,1998,12 x 23 teeth,40,26,60
+813000,16,CG-Record8-26,Road,Rear cogs,0,0,0,270,1994,1998,13 x 26 teeth,40,26,10
+814000,2,CG-XTR8,MTB,Rear cogs,0,0,0,250,1997,2001,12-28 teeth,60,39,5
+814020,2,CG-XTR-Ti,MTB,Rear cogs,0,0,0,235,1999,2001,XTR Titanium 9 speed M952,118,76.7,1413
+815000,2,CG-XTR8,MTB,Rear cogs,0,0,0,250,1997,2001,12-32 teeth,60,39,87
+816000,16,CG-Campy-Ch,Road,Rear cogs,0,0,0,270,1999,2001,Campy Chorus 9 speed,70,45.5,272
+817000,16,CG-CampyTi-R01,Road,Rear cogs,0,0,0,156,2002,2011,Record 2002 10 speed all titanium,290,240,0
+817100,16,CG-CampyTi1-R02,Road,Rear cogs,0,0,0,188,2002,2011,Record 2002 10 speed 4Ti/6 Steel 11/23,170,135,10
+817200,16,CG-Campy-C02,Road,Rear cogs,0,0,0,220,2002,2011,Chorus 2002 10 speed steel 12/25,90,70,7
+818000,2,CG-DA-01,Road,Rear cogs,0,0,0,152,2001,2011,Dura Ace 9 speed 11/23,120,84,16
+818100,2,CG-UL-01,Road,Rear cogs,0,0,0,176,2001,2011,Ultegra 9 speed 12/25,50,35,26
+818200,2,CG-M953,MTB,Rear cogs,0,0,0,235,2001,2011,XTR M953 Ti Cassette,135,82,3
+901000,5,HB-AT2,MTB,Handlebar,0,0,21,185,1994,1998,"7000 Aluminum 21"" wide MTB bar",75,48.75,38
+901500,5,HB-AT2,MTB,Handlebar,0,0,22,185,1994,1998,"Aluminum, 22"" wide",75,48.75,10
+902000,5,HB-AT4,MTB,Handlebar,0,0,20,395,1994,1998,ATB bar with extended reach,50,32.5,116
+902500,5,HB-AT4,MTB,Handlebar,0,0,23,395,1994,1998,"ATB handlebar with extended reach, 23"" wide",50,32.5,68
+903000,11,HB-MTB420,MTB,Handlebar,0,0,22,170,1994,1998,"titanium, 6 degree bend",40,26,96
+904000,44,HB-ANS-Hyper,MTB,Handlebar,,3,23,148,1999,2001,Hyperlite Easton EA-70 Aluminum,45,29.25,93
+905000,43,HB-Kes-Kev,MTB,Handlebar,0,3,23,125,1999,2001,Kestrel Carbon/Kevlar weave. Lifetime warranty,65,42.25,0
+906000,14,HB-Pro-Xcar,MTB,Handlebar,0,3,23,170,1999,2001,Fiber XC carbon bar.,50,32.5,0
+907000,41,HB-Bon-Ti,MTB,Handlebar,0,11,24,330,1999,2001,Bontrager Race Lite Ti riser bar,95,61.75,0
+908000,48,HB-Ibis-Ti,MTB,Handlebar,0,3,22,150,1999,2001,"Ibis Titanium bar (3Al/2.5V), 3 degree bend",90,58.5,1418
+910000,5,HB-Drop,Road,Handlebar,0,0,40,320,1994,1998,"Road handlebars, 40 cm width",55,35.75,31
+911000,5,HB-Drop,Road,Handlebar,0,0,42,320,1994,1998,"Road handlebar, drop in curve 42 cm",55,35.75,128
+912000,5,HB-Drop,Road,Handlebar,0,0,40,240,1994,1998,Road handlebar--traditional drop,40,26,55
+913000,5,HB-Drop,Road,Handlebar,0,0,42,240,1994,1998,"Road handlebar, traditional 42 cm",40,26,122
+914000,11,HB-Sakae,Road,Handlebar,0,25.4,41,390,1994,1998,"Anatomic road handlebar, 6063-T5 aluminum",17,11.05,83
+915000,11,HB-Sakae,Road,Handlebar,0,25.4,43,390,1994,1998,"Traditional Road handlebar 43 cm wide, 25.4 mm clamp",17,11.05,94
+916000,46,HB-TTT-220-42,Road,Handlebar,0,0,42,220,1999,2001,TTT Prima 220,70,45.5,11
+916500,46,HB-TTT-220-44,Road,Handlebar,0,0,44,220,1999,2001,"TTT Prima 220, standard drop bars",70,45.5,22
+917000,47,HB-Cin-Eub-40,Road,Handlebar,0,26,40,0,1999,2001,Cinelli Eubios 40,50,32.5,0
+917500,47,HB-Cin-Eub-42,Road,Handlebar,0,26,42,0,1999,2001,Cinelli Eubios drop handlebars,50,32.5,717
+918000,55,HB-Easton-EC90,Road,Handlebar,0,0,44,195,2002,2011,Easton EC-90 Carbon 44 cm,175,135,0
+918100,47,HB-Cinelli-RAM,Road,Handlebar,120,0,42,350,2002,2011,Cinelli Carbon Ram Bar/Stem for threadless 1 inch,480,325,7
+918200,55,HB-Easton-ML,MTB,Handlebar,0,0,660,175,2001,2011,Easton Monkey Lite Carbon Riser 2 in. rise 8 degree sweep,120,84,9
+918300,55,HB-Easton-EA70,MTB,Handlebar,0,0,580,145,2001,2011,Easton EA70 XC Aluminum,40,29,0
+918400,55,HB-Easton-CT2,MTB,Handlebar,0,0,580,125,2001,2011,Easton CT2 Carbon,80,56,15
+918500,56,HB-Deda-Newton,Road,Handlebar,0,0,42,205,2002,2011,Deda Newton/black 42 cm,100,75,7
+918510,56,HB-Deda-Newton,Road,Handlebar,0,0,44,205,2002,2011,Deda Newton/black 44 cm,100,75,17
+955000,27,BE-RAW110,MTB,Bar ends,0,0,0,115,1994,1998,"Bar ends for MTB handlebars, 6061-T6 Aluminum",20,13,8
+956000,5,BE-AT-NZ,MTB,Bar ends,0,0,0,165,1994,1998,"L-bend, anodized Alum., silver",30,19.5,10
+957000,14,BE-Pro-BF,MTB,Bar ends,0,0,0,120,1999,2001,"Profile Brief bar ends, Aluminum",18,11.7,0
+1001000,15,ST-CT-120,MTB,Stem,120,0,1,176,1994,2001,"MTB Stem for Ahead Set threadless system, 120 mm ext, 1"" tube",46,29.9,170
+1002000,15,ST-CT-135,MTB,Stem,135,0,1,176,1994,2001,"MTB stem, 135 mm ext, 1 1/8 tube",46,29.9,47
+1003000,15,ST-CT-150,MTB,Stem,150,0,1,176,1994,2001,"ATB stem, 10 degree rise, 150 mm ext, 1"" tube",46,29.9,9
+1004000,15,ST-CT-120,MTB,Stem,120,0,1.125,176,1994,2001,"ATB stem, 120 mm ext, 1 1/8 tube",46,29.9,10
+1401000,18,FK-Mag21-140,MTB,Fork,140,0,1.125,1720,1994,1996,"Front fork, shock absorber",370,240.5,20
+1401010,18,FK-RS-JDH,MTB,Fork,,0,1.125,1589,1997,2001,Rock Shox Judy DH,400,240.5,0
+1401020,18,FK-RS-JDH,MTB,Fork,,0,1.125,1589,1999,2001,Rock Shox Judy DH,400,240.5,0
+1402000,18,FK-Mag21-170,MTB,Fork,170,0,1.125,1720,1994,1996,"Front fork, shock absorber",370,240.5,32
+1402010,18,FK-RS-JXC,MTB,Fork,,0,1.125,1340,1997,2001,Rock Shox Judy XC,380,240.5,88
+1402020,18,FK-RS-JXC,MTB,Fork,,0,1.125,1340,1999,2001,Rock Shox Judy XC,380,240.5,601
+1403000,18,FK-Mag21-200,MTB,Fork,200,0,1.125,1720,1994,1996,"Front fork, shock absorber",370,240.5,10
+1404000,18,FK-Mag21-140,MTB,Fork,140,0,1.25,1720,1994,1996,"Front fork, shock absorber",370,240.5,10
+1405000,18,FK-Mag21-170,MTB,Fork,170,0,1.25,1720,1994,1996,"Front fork, shock absorber",370,240.5,7
+1406000,18,FK-Mag21-200,MTB,Fork,200,0,1.25,1720,1994,1996,"Front fork, shock absorber",370,240.5,10
+1407000,18,FK-Mag21-S,MTB,Fork,220,0,1.125,1720,1994,1996,"Front fork, shock absorber, for Threadless tube",370,240.5,10
+1408000,18,FK-Mag21-S,MTB,Fork,220,0,1.25,1720,1994,1996,"Front fork, shock absorber, for Threadless tube",370,240.5,10
+1409000,3,FK-Time-140,Road,Fork,140,0,1,532,1994,1998,Carbon/Kevlar road fork,315,204.75,12
+1409020,3,FK-Time-140,Road,Fork,140,0,1,532,1999,2001,Time carbon fork,300,195,0
+1410000,3,FK-Time-180,Road,Fork,180,0,1,532,1994,1998,Carbon/Kevlar road fork,315,204.75,106
+1410020,3,FK-Time-180,Road,Fork,180,0,1,532,1999,2001,Time carbon fork,300,195,1074
+1411000,3,FK-Time-200,Road,Fork,200,0,1,532,1994,1998,Carbon/Kevlar road fork,315,204.75,38
+1411020,3,FK-Time-200,Road,Fork,200,0,0,532,1999,2001,Time carbon fork,300,195,0
+1412000,3,FK-Time-250,Road,Fork,250,0,1,532,1994,1998,"Carbon/Kevlar road fork, threadless",315,204.75,12
+1412020,3,FK-Time-250,Road,Fork,250,0,1,532,1999,2001,Time carbon fork,300,195,0
+1413000,11,Cro-Moly F190,MTB,Fork,190,0,1.125,800,1994,2001,Basic cheapo Cro-Moly fork,30,19.5,10
+1414000,11,Cro-Moly F190,MTB,Fork,190,0,1.25,800,1994,2001,Basic cheapo Cro-Moly fork,30,19.5,9
+1415000,11,Cro-Moly F250,Road,Fork,220,0,1,800,1994,2001,Basic cheapo Cro-Moly fork,30,19.5,141
+1416000,18,FK-JudyXC,MTB,Fork,170,0,1.125,1315,1997,2001,"Micro cellular urethane spring, sealed damping, 50 mm travel, suspension fork",350,227.5,62
+1417000,43,FK-Kes-240,Road,Fork,240,0,1,505,1999,2001,"Kestrel EMS composite fork, 700c",270,175.5,0
+1418000,4,FK-Look-HSC,Road,Fork,240,0,1,350,1999,2001,Look HSC carbon fork with carbon steerer tube-ultalight. Cut to proper size,350,227.5,0
+1419000,14,FK-Pro-BRA,Road,Fork,220,0,1,600,1999,2001,"Profile bladed raked aluminum, steel steere tube",110,71.5,14
+1420000,44,FK-Ans-SXC,MTB,Fork,0,70,1.125,1324,1999,2001,"Answer SX Carbon suspension shock 70mm travel, threadless",650,422.5,0
+1421000,44,FK-Ans-SXTi,MTB,Fork,250,80,1.125,1513,1999,2001,"Answer SX Ti, 80mm travel",500,325,0
+1422000,45,FK-Mar-Z2,MTB,Fork,220,70,1.125,1371,1999,2001,"Marzocchi Z.2 superfly, 70mm travel",630,409.5,811
+1423000,45,FK-Mar-Z2Bam,MTB,Fork,220,85,1.125,1702,1999,2001,"Marzocchi Z.2 BAM, 85mm travel",445,289.25,589
+1424000,18,FK-RS-SIDSL,MTB,Fork,220,63,1.125,1277,1999,2001,Rock Shox SID SL dual air system shock,700,455,0
+1425000,18,FK-RS-SIDXC,MTB,Fork,220,80,1.125,1371,1999,2001,"Rock Shox SID XC dual air spring, 80mm travel",550,357.5,0
+1426000,3,FK-Time-Mil,Road,Fork,0,0,0,540,2001,2011,Time Millennium Carbon threadless 1 1/8,300,210,6
+1426100,4,FK-Look-HSC-3,Road,Fork,0,0,0,365,2001,2011,Look HSC-3 Carbon threadless 1 1/8,350,250,10
+1426200,18,FK-Rock-SID,MTB,Fork,80,0,0,1271,2001,2011,Rock Shox SID Race Carbon,750,520,0
+1426300,44,FK-Ans-Black,MTB,Fork,80,0,0,1544,2002,2011,Answer Black Elite Air,480,340,0
+1426310,44,FK-Ans-Black100,MTB,Fork,120,0,0,1907,2002,2011,Answer Black Elite 100/120,430,315,-8
+1426400,58,FK-Fox-100RLC,MTB,Fork,120,0,0,1725,2002,2011,Fox Racing Float 100RLC,650,450,-2
+1501000,27,PD-OZa,,Pedals,0,0,0,350,1994,2001,"ATB clipless pedal, SPD compatible",90,58.5,51
+1502000,12,PD-SAM-M,,Pedals,0,0,0,225,1994,1996,"ATB pedal, titanium",75,48.75,10
+1503000,11,PD-Sakae,,Pedals,0,0,0,396,1994,2001,Lowfat ATB pedal,20,13,100
+1504000,2,PD-XT737,,Pedals,0,0,0,450,1994,2001,ATB clipless pedals,120,78,715
+1505000,2,PD-M747,MTB,Pedals,0,0,0,393,1997,2001,"Lighter, easier entry/exit, cartridge bearings",150,97.5,1408
+1506000,4,PD-LK286,Road,Pedals,0,0,0,420,1994,2001,Road clipless pedal,200,130,350
+1507000,3,PD-CP,Road,Pedals,0,0,0,480,1994,2001,Road clipless pedal,185,120.25,132
+1508000,3,PD-Equipe,Road,Pedals,0,0,0,400,1994,2001,"Road clipless pedals, Magnesium",250,162.5,255
+1509000,12,PD-SAM-R,Road,Pedals,0,0,0,188,1994,1996,Stratics titanium pedal (775),128,83.2,34
+1510000,2,PD-DA,Road,Pedals,0,0,0,313,1994,1998,Dura-Ace clipless road pedal,174,113.1,69
+1510020,2,PD-DA,Road,Pedals,0,0,0,313,1999,2001,"Dura-Ace clipless road pedal, spd",180,113.1,17
+1511000,2,PD-UL6500,Road,Pedals,0,0,0,348,1999,2001,"Shimano Ultegra, spd",125,87,16
+1512000,3,PD-Time-Atac,MTB,Pedals,0,0,0,200,1999,2001,Time ATAC Titanium Carbon,250,162.5,0
+1513000,16,PD-Campy-R02,Road,Pedals,0,0,0,266,2002,2011,Record Pro-Fit Plus,200,140,10
+1513100,16,PD-Campy-C02,Road,Pedals,0,0,0,316,2002,2011,Chorus Pro-Fit Plus,125,85,6
+1513200,59,PD-Crank-Egg,,Pedals,0,0,0,290,2002,2011,Crank Brothers Egg Beater,120,85,7
+1513300,3,PD-Time-ATAC,MTB,Pedals,0,0,0,410,2001,2011,Time A.T.A.C. carbon G1,170,119,0
+1513400,2,PD-M959,MTB,Pedals,0,0,0,346,2001,2011,Shimano MTB standard,170,119,6
+1601000,2,FW-DA28,Road,Front wheel,28,700,100,860,1994,2001,"Mavic Open 4CD rim, 28 DT spokes, racing wheel",137,89.05,69
+1602000,2,FW-DA32,Road,Front wheel,32,700,100,920,1994,1998,"Mavic Open 4CD rim, 32 DT spokes road wheel",137,89.05,33
+1602020,2,FW-DA32,Road,Front wheel,32,700,100,835,1999,2001,"Mavic MA 40 rim, 32 DT spokes road wheel",110,75,246
+1603000,2,FW-UL32,Road,Front wheel,32,700,100,990,1994,1998,"Mavic Open 4CD rim, 32 DT spoke, road wheel",90,58.5,136
+1603020,2,FW-UL32,Road,Front wheel,32,700,100,900,1999,2001,"Mavic MA 40 rim, 32 DT spoke, road wheel, 9 speed",90,67,18
+1604000,8,FW-MV28,Road,Front wheel,28,700,100,980,1994,1998,"Mavic Open Ceramic rim, 28 DT spoke, racing wheel",250,162.5,22
+1605000,16,FW-Shamal-C,Road,Front wheel,16,700,100,860,1997,2001,Clincher 16 spoke aero racing wheel,300,195,304
+1605100,16,FW-Shamal-T,Road,Front wheel,16,700,100,790,1997,2001,Tubular 16 spoke aero racing wheel,300,195,46
+1605200,6,FW-TRI-C,Road,Front wheel,3,700,100,900,1994,2001,Clincher composite 3 spoke aero racing wheel,500,325,10
+1605300,6,FW-TRI-T,Road,Front wheel,3,700,100,800,1994,2001,Tubular composite 3 spoke aero racing wheel,500,325,10
+1605400,2,FW-XT32,MTB,Front wheel,32,26,100,1154,1994,2001,"Mavic 217 rim, 32 DT spoke, MTB wheel",137,89.05,128
+1605500,2,FW-XT36,MTB,Front wheel,36,26,100,1160,1994,2001,"Mavic 217 rim, 36 DT spoke, MTB wheel",137,89.05,10
+1605600,2,FW-LX36,MTB,Front wheel,36,26,100,1276,1994,2001,"Bontrager BCX rim, 36 WS spoke, MTB wheel",59,38.35,671
+1605700,42,FW-RevX,MTB,Front wheel,4,26,0,860,1999,2001,"Rev X Mountain (650) front, tubular, carbon spokes",260,169,593
+1605800,8,FW-MV-He,Road,Front wheel,26,700,0,650,1999,2001,"Mavic Helium wheels, clincher, light!",280,182,447
+1605900,42,FW-Sp-Spox,Road,Front wheel,28,700,0,0,1999,2001,"Ultra light vectran spokes, radially laced",300,195,0
+1605910,16,FW-Campy-Nu,Road,Front wheel,22,700,0,570,1999,2001,"Campy Nucleon, straight pull bladed spokes, radial laced",370,240.5,252
+1605920,8,FW-Mav-Cmax,MTB,Front wheel,26,26,0,650,1999,2001,"Mavic Cross Max front wheet double-butted straight pull spokes, radially laced",330,214.5,10
+1605930,8,FW-Mav-Cos,Road,Front wheel,16,700,0,880,1999,2001,"Mavic Cosmic Carbone radial laced, sleek aero profile",470,305.5,0
+1606000,16,FW-Campy-Eurus-F,Road,Front wheel,0,0,0,775,2002,2011,Campy Eurus bladed spokes 16 spokes,350,260,4
+1606100,8,FW-Mavic-Cosmic-F,Road,Front wheel,0,0,0,950,2001,2011,Mavic Cosmic Carbone SSC 16 spokes,550,380,0
+1606200,8,FW-Mavic-Ksyrium-F,Road,Front wheel,0,0,0,785,2001,2011,Mavic Ksyrium SSC SL 18 spokes,390,290,0
+1606300,60,FW-Rolf-2001-FS,Road,Front wheel,0,0,0,678,2001,2011,Rolf/Trek Sestriere 2001 20 spokes-Shimano,280,170,0
+1606310,60,FW-Rolf-2001-FC,Road,Front wheel,0,0,0,678,2001,2011,Rolf/Trek Sestriere 2001 20 spokes-Campy,280,170,11
+1607100,2,FW-XTR32-01,MTB,Front wheel,32,26,100,1150,2001,2011,"Mavic rim, 32 Spoke MTB front wheel",153,105,7
+1607150,2,FW-XT32-01,MTB,Front wheel,32,26,100,1155,2001,2011,"Mavic rim, 32 Spoke MTB front wheel",132,90,10
+1607180,2,FW-LX32-01,MTB,Front wheel,32,26,100,1160,2001,2011,"Mavic rim, 32 Spoke MTB front wheel",125,85,8
+1701000,8,RW-Mav-Cos,Road,Rear wheel,16,700,0,1090,1999,2001,"Mavic Cosmic Carbone light, aero, 2 cross drive side",530,344.5,0
+1701110,2,RW-DA28,Road,Rear wheel,28,700,130,1150,1994,1998,"Mavic Open 4CD rims, 28 DT spokes, racing only",175,113.75,67
+1702000,2,RW-DA32,Road,Rear wheel,32,700,130,1150,1994,1998,"Mavic Open 4CD rim, 32 DT spokes, road wheel",175,113.75,30
+1702020,2,RW-DA32,Road,Rear wheel,32,700,130,1020,1999,2001,"Mavic MA 40 rim, 32 DT spokes, road wheel",160,115,243
+1703000,2,RW-UL32,Road,Rear wheel,32,700,130,1200,1994,1998,"Mavic Open 4CD rim, 32 DT spoke, road wheel",110,71.5,25
+1703020,2,RW-UL32,Road,Rear wheel,32,700,130,1100,1999,2001,"Mavic MA 40 rim, 32 DT spoke, road wheel",90,68,17
+1704000,8,RW-MV28,Road,Rear wheel,28,700,130,1250,1994,1998,"Mavic Open Sup ceramic rim, 28 DT spoke, racing wheel",400,260,18
+1705000,16,RW-Shamal-C,Road,Rear wheel,16,700,130,1165,1997,2001,Clincher 16 spoke aero racing wheel,350,227.5,303
+1706000,16,RW-Shamal-T,Road,Rear wheel,16,700,130,1095,1997,2001,Tubular 16 spoke aero racing wheel,350,227.5,46
+1707000,6,RW-TRI-C,Road,Rear wheel,3,700,130,900,1994,2001,Clincher composite 3 spoke aero racing wheel,650,422.5,10
+1708000,6,RW-TRI-T,Road,Rear wheel,3,700,130,800,1994,2001,Tubular composite 3 spoke aero racing wheel,650,422.5,9
+1709000,2,RW-XT32,MTB,Rear wheel,32,26,130,1350,1994,2001,"Mavic 217 rim, 32 DT spoke, MTB wheel",165,107.25,125
+1710000,2,RW-XT36,MTB,Rear wheel,36,26,130,1350,1994,2001,"Mavic 217 rim, 36 DT spoke, MTB wheel",165,107.25,10
+1711000,2,RW-LX36,MTB,Rear wheel,36,26,130,1450,1994,2001,"Bontrager BCX rim, 36 WS spoke, MTB wheel",69,44.85,667
+1712000,42,RW-RevX-R,MTB,Rear wheel,8,26,0,1040,1999,2001,"Spinergy Rev-X Rear, carbon spokes, clincher, 650",400,260,590
+1713000,8,RW-MV-He,Road,Rear wheel,28,700,0,850,1999,2001,"Mavic Helium Rear wheel, light, Shimano compatible",320,208,447
+1714000,16,RW-Campy-Nu,Road,Rear wheel,24,700,0,800,1999,2001,"Campy Nucleon straight pull blade spokes, 2 cross, clincher",450,292.5,10
+1715000,42,RW-Sp-Spox,Road,Rear wheel,28,700,0,850,1999,2001,Spinergy Spox ultra light vectran spokes one-cross drive side Shimano 8/9 speed compatible,400,260,0
+1716000,8,RW-Mav-Cmax,MTB,Rear wheel,28,26,0,850,1999,2001,"Mavix Cross Max rear, straight pull spokes, 3-cross drive side",370,240.5,9
+1717000,16,RW-Campy-Eurus-R,Road,Rear wheel,0,0,0,940,2002,2011,Campy Eurus bladed spokes 21 spokes,450,350,-1
+1717100,8,RW-Mavic-Cosmic-R,Road,Rear wheel,0,0,0,1225,2001,2011,Mavic Cosmic Carbone SSC 20 spokes,650,480,0
+1717200,8,RW-Mavic-Ksyrium-R,Road,Rear wheel,0,0,0,940,2001,2011,Mavic Ksyrium SSC SL 20 spokes,475,390,0
+1717300,60,RW-Rolf-2001-RS,Road,Rear wheel,0,0,0,812,2001,2011,Rolf/Trek Sestriere 2001 24 spokes-Shimano,380,240,0
+1717310,60,RW-Rolf-2001-RC,Road,Rear wheel,0,0,0,812,2001,2011,Rolf/Trek Sestriere 2001 24 spokes-Campy,380,235,9
+1718100,2,RW-XTR36-01,MTB,Rear wheel,36,26,130,1350,2001,2011,"Mavic rim, 36 Spoke MTB rear wheel",180,128,5
+1718150,2,RW-XT36-01,MTB,Rear wheel,36,26,130,1363,2001,2011,"Mavic rim, 36 Spoke MTB rear wheel",175,118,7
+1718180,2,RW-LX36-01,MTB,Rear wheel,36,26,130,1375,2001,2011,"Mavic rim, 36 Spoke MTB rear wheel",165,105,7
+1801000,6,TI-PCS,MTB,Tire,0,26,1.95,620,1994,1996,"Umma Gumma, front or rear tire for MTB",26,16.9,206
+1802000,22,TI-Alfa-Bite,MTB,Tire front,0,26,2.1,650,1994,1996,Off road Front,25,16.25,65
+1803000,22,TI-Omega-Bite,MTB,Tire rear,0,26,2.1,650,1994,1996,Off road Rear,25,16.25,87
+1804000,35,TI-VelociRaptorF,MTB,Tire front,0,26,2.1,725,1994,2001,Off road Front,30,19.5,10
+1805000,35,TI-VelociRaptorR,MTB,Tire rear,0,26,2.1,725,1994,2001,Off road Rear,30,19.5,10
+1806000,2,TI-Cannibal,MTB,Tire,0,26,2.2,690,1994,2001,Front or rear tire for MTB/soft dirt,26,16.9,9
+1807000,27,TI-Rail,MTB,Tire,0,26,1.9,595,1994,2001,Off road front or rear,27,17.55,8
+1808000,27,TI-Rip,MTB,Tire,0,26,1.9,604,1994,2001,Off road front or rear/Mud,27,17.55,10
+1809000,6,TI-MoreExtreme,MTB,Tire rear,0,26,1.95,680,1994,2001,"Off road, Rear",26,16.9,10
+1810000,6,TI-GroundControl,MTB,Tire,0,26,1.95,670,1994,2001,Off road front or rear,18,11.7,10
+1810020,6,TI-Spec-Team,MTB,Tire front,0,26,2,670,1999,2001,Team Control 2.0 Kevlar Front,50,32,28
+1810120,6,TI-Spec-Team,MTB,Tire rear,0,26,1.9,670,1999,2001,Team Master 1.90 Kevlar Rear,50,32,619
+1811000,6,TI-Storm,MTB,Tire,0,26,1.8,650,1994,2001,Rear (or front) tire for MTB/best for mud and wet conditions,23,14.95,140
+1812000,6,TI-TurboC20,Road,Tire,0,700,20,200,1994,2001,"Light, fast racing tire",25,16.25,181
+1813000,6,TI-TurboC23,Road,Tire,0,700,23,250,1994,2001,"General purpose, light road tire",25,16.25,54
+1814000,6,TI-TurboCR20,Road,Tire,0,700,20,195,1994,2001,"Light, soft/grip racing tire",40,26,45
+1814020,6,TI-TurboCR20,Road,Tire,0,700,20,195,1999,2001,"Turbo Team, Light, soft/grip racing tire",50,26,1000
+1814120,6,Ti-Turbo-C20,Road,Tire,0,700,20,220,1999,2001,Turbo Comp,30,18,59
+1815000,6,TI-Armadillo20,Road,Tire,0,700,20,280,1994,2001,"Tough, light road tire",25,16.25,69
+1816000,6,TI-Armadillo23,Road,Tire,0,700,23,310,1994,2001,"Tough, medium weight road tire",25,16.25,304
+1817000,30,TI-Comp19-T,Road,Tire,0,700,19,225,1994,2001,"Tubular racing tire, 150 psi",65,42.25,104
+1818000,30,TI-TriathlonT,Road,Tire,0,700,22,290,1994,2001,"Racing tire, 170 psi",43,27.95,10
+1819000,30,TI-Sprint22-T,Road,Tire,0,700,22,250,1994,2001,"Tubular, training and racing 120 psi",33,21.45,111
+1820000,21,TI-SuperComp,Road,Tire,0,700,20,205,1994,2001,"Training/Racing, 110 psi",20,13,8
+1821000,30,TI-Giro-T,Road,Tire,0,700,22,300,1994,2001,"Training tubular tire, 120 psi",21,13.65,10
+1822000,52,TI-Tioga-XC-F,MTB,Tire front,0,26,1.95,560,1999,2001,Tioga Factory XC kevlar Front,40,26,57
+1823000,52,TI-Tioga-XC-R,MTB,Tire rear,0,26,1.95,560,1999,2001,Tioga Factory XC Kevlar--rear,40,26,57
+1824000,30,TI-Conti-GPS,Road,Tire,0,0,0,155,2001,2011,Continental Grand Prix Supersonic 145 psi clincher,50,35,29
+1824010,30,TI-Conti-Ultra2000,Road,Tire,0,0,0,190,2001,2011,Continental Ultra 2000 kevlar clincher,35,24,33
+1824100,21,TI-Mich-Axial Pro,Road,Tire,0,0,0,190,2001,2011,Michelin Axial Pro Light Black 700x23 110 psi,60,38,33
+1824200,61,TI-Vitt-CorsaCX,Road,Tire,0,0,0,230,2001,2011,Vittoria Open Corsa CX 700x23 180 psi,60,38,0
+1824300,21,TI-Mich-Wild,MTB,Tire,0,0,0,630,2001,2011,Michelin WildGripper Hot S black 2.10,40,28,28
+2001000,31,HUB-FTRAK,MTB,Front hub,0,32,71,147,1994,2001,"Tracker Front Hub, stiff, oversized, aluminum shell, chromoly axle, 32 spoke",85,55.25,10
+2002000,31,HUB-RWTI,MTB,Rear hub,135,32,12,280,1994,2001,"Titanium rear cassette hub, fits either MTB (135) or Road (130), 32 spoke",220,143,10
+2003000,6,SB-TTS,MTB,Front skewer,0,0,0,80,1994,2001,Pair (front & rear) Titanium skewers,62,40.3,10
+2101000,20,SP-W292,Road,Spokes,292,0,1.8,220,1994,2001,15 gauge straight spokes,8,5.2,10
+2102000,20,SP-W294,Road,Spokes,294,0,1.8,220,1994,2001,15 gauge straight spokes,8,5.2,6
+2103000,20,SP-W296,Road,Spokes,296,0,1.8,220,1994,2001,15 gauge straight spokes,8,5.2,10
+2104000,20,SP-W262,MTB,Spokes,262,0,2,220,1994,2001,14 gauge straight spokes,8,5.2,10
+2105000,20,SP-W264,MTB,Spokes,264,0,2,220,1994,2001,14 gauge straight spokes,8,5.2,10
+2106000,20,SP-W296,MTB,Spokes,266,0,2,220,1994,2001,14 gauge straight spokes,8,5.2,10
+3001000,6,CA-LIGHT,road,Extras,0,0,0,37,1994,2001,"Water bottle cage, light weight",6,3.9,10
+3002000,6,CA-TOUGH,MTB,Extras,0,0,0,59,1994,2001,"Water bottle cage, heavy duty",7,4.55,10

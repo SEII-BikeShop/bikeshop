@@ -96,8 +96,8 @@ class City(models.Model):
     population1990 = models.DecimalField(db_column='POPULATION1990', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
     population1980 = models.DecimalField(db_column='POPULATION1980', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
     country = models.CharField(db_column='COUNTRY', max_length=50, blank=True, null=True)  # Field name made lowercase.
-    latitude = models.FloatField(db_column='LATITUDE', blank=True, null=True)  # Field name made lowercase.
-    longitude = models.FloatField(db_column='LONGITUDE', blank=True, null=True)  # Field name made lowercase.
+    latitude = models.FloatField(db_column='LATITUDE', blank=True, null=True, default=0)  # Field name made lowercase.
+    longitude = models.FloatField(db_column='LONGITUDE', blank=True, null=True, default=0)  # Field name made lowercase.
     populationcdf = models.FloatField(db_column='POPULATIONCDF', blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
@@ -167,24 +167,10 @@ class Customer(models.Model):
         db_table = 'CUSTOMER'
 
 
-class Customertransaction(models.Model):
-    customerid = models.OneToOneField(Customer, models.DO_NOTHING, db_column='CUSTOMERID', primary_key=True)  # Field name made lowercase.
-    transactiondate = models.DateTimeField(db_column='TRANSACTIONDATE')  # Field name made lowercase.
-    employeeid = models.DecimalField(db_column='EMPLOYEEID', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
-    amount = models.DecimalField(db_column='AMOUNT', max_digits=38, decimal_places=4, blank=True, null=True)  # Field name made lowercase.
-    description = models.CharField(db_column='DESCRIPTION', max_length=250, blank=True, null=True)  # Field name made lowercase.
-    reference = models.DecimalField(db_column='REFERENCE', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
-
-    class Meta:
-        managed = False
-        app_label = 'bikeshop_web'
-        db_table = 'CUSTOMERTRANSACTION'
-        unique_together = (('customerid', 'transactiondate'), ('customerid', 'transactiondate'),)
-
 
 class Employee(models.Model):
     employeeid = models.DecimalField(db_column='EMPLOYEEID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
-    taxpayerid = models.CharField(db_column='TAXPAYERID', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    taxpayeridentifier = models.CharField(db_column='TAXPAYERID', max_length=50, blank=True, null=True)  # Field name made lowercase.
     lastname = models.CharField(db_column='LASTNAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
     firstname = models.CharField(db_column='FIRSTNAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
     homephone = models.CharField(db_column='HOMEPHONE', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -203,6 +189,22 @@ class Employee(models.Model):
         managed = False
         app_label = 'bikeshop_web'
         db_table = 'EMPLOYEE'
+
+
+class Customertransaction(models.Model):
+    customerid = models.OneToOneField(Customer, models.DO_NOTHING, db_column='CUSTOMERID', primary_key=True)  # Field name made lowercase.
+    transactiondate = models.DateTimeField(db_column='TRANSACTIONDATE')  # Field name made lowercase.
+    employeeid = models.ForeignKey(Employee, models.DO_NOTHING, db_column='EMPLOYEEID', blank=True, null=True)  # Field name made lowercase.
+    amount = models.DecimalField(db_column='AMOUNT', max_digits=38, decimal_places=4, blank=True, null=True)  # Field name made lowercase.
+    description = models.CharField(db_column='DESCRIPTION', max_length=250, blank=True, null=True)  # Field name made lowercase.
+    reference = models.DecimalField(db_column='REFERENCE', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        app_label = 'bikeshop_web'
+        db_table = 'CUSTOMERTRANSACTION'
+        unique_together = (('customerid', 'transactiondate'), ('customerid', 'transactiondate'),)
+
 
 
 class Groupcomponents(models.Model):
@@ -357,7 +359,7 @@ class Purchaseorder(models.Model):
 
 
 class Retailstore(models.Model):
-    storeid = models.DecimalField(db_column='STOREID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    retailstoreid = models.DecimalField(db_column='STOREID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     storename = models.CharField(db_column='STORENAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
     phone = models.CharField(db_column='PHONE', max_length=50, blank=True, null=True)  # Field name made lowercase.
     contactfirstname = models.CharField(db_column='CONTACTFIRSTNAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -428,7 +430,7 @@ class Tempdatemade(models.Model):
 
 
 class Tubematerial(models.Model):
-    tubeid = models.DecimalField(db_column='TUBEID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    tubematerialid = models.DecimalField(db_column='TUBEID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     material = models.CharField(db_column='MATERIAL', max_length=50, blank=True, null=True)  # Field name made lowercase.
     description = models.CharField(db_column='DESCRIPTION', max_length=100, blank=True, null=True)  # Field name made lowercase.
     diameter = models.FloatField(db_column='DIAMETER', blank=True, null=True)  # Field name made lowercase.
