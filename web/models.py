@@ -61,7 +61,7 @@ class Bicycletubeusage(models.Model):
 class Bikeparts(models.Model):
     serialnumber = models.OneToOneField(Bicycle, models.DO_NOTHING, db_column='SERIALNUMBER', primary_key=True)  # Field name made lowercase.
     componentid = models.ForeignKey('Component', models.DO_NOTHING, db_column='COMPONENTID')  # Field name made lowercase.
-    substituteid = models.DecimalField(db_column='SUBSTITUTEID', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
+    substituteidentifer = models.DecimalField(db_column='SUBSTITUTEID', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
     location = models.CharField(db_column='LOCATION', max_length=50, blank=True, null=True)  # Field name made lowercase.
     quantity = models.DecimalField(db_column='QUANTITY', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
     dateinstalled = models.DateTimeField(db_column='DATEINSTALLED', blank=True, null=True)  # Field name made lowercase.
@@ -219,7 +219,7 @@ class Groupcomponents(models.Model):
 
 
 class Groupo(models.Model):
-    componentgroupid = models.DecimalField(db_column='COMPONENTGROUPID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    groupoid = models.DecimalField(db_column='COMPONENTGROUPID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     groupname = models.CharField(db_column='GROUPNAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
     biketype = models.CharField(db_column='BIKETYPE', max_length=50, blank=True, null=True)  # Field name made lowercase.
     year = models.DecimalField(db_column='YEAR', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
@@ -261,7 +261,7 @@ class Manufacturer(models.Model):
 class Manufacturertransaction(models.Model):
     manufacturerid = models.OneToOneField(Manufacturer, models.DO_NOTHING, db_column='MANUFACTURERID', primary_key=True)  # Field name made lowercase.
     transactiondate = models.DateTimeField(db_column='TRANSACTIONDATE')  # Field name made lowercase.
-    employeeid = models.DecimalField(db_column='EMPLOYEEID', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
+    employee = models.DecimalField(db_column='EMPLOYEEID', max_digits=38, decimal_places=0, blank=True, null=True)  # Field name made lowercase.
     amount = models.DecimalField(db_column='AMOUNT', max_digits=38, decimal_places=4, blank=True, null=True)  # Field name made lowercase.
     description = models.CharField(db_column='DESCRIPTION', max_length=250, blank=True, null=True)  # Field name made lowercase.
     reference = models.DecimalField(db_column='REFERENCE', max_digits=38, decimal_places=0)  # Field name made lowercase.
@@ -342,7 +342,7 @@ class Purchaseitem(models.Model):
 
 
 class Purchaseorder(models.Model):
-    purchaseid = models.DecimalField(db_column='PURCHASEID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    purchaseorderid = models.DecimalField(db_column='PURCHASEID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     employeeid = models.ForeignKey(Employee, models.DO_NOTHING, db_column='EMPLOYEEID', blank=True, null=True)  # Field name made lowercase.
     manufacturerid = models.ForeignKey(Manufacturer, models.DO_NOTHING, db_column='MANUFACTURERID', blank=True, null=True)  # Field name made lowercase.
     totallist = models.DecimalField(db_column='TOTALLIST', max_digits=38, decimal_places=4, blank=True, null=True)  # Field name made lowercase.
@@ -375,7 +375,7 @@ class Retailstore(models.Model):
 
 
 class Revisionhistory(models.Model):
-    id = models.DecimalField(db_column='ID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    revisionhistoryid = models.DecimalField(db_column='ID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     version = models.CharField(db_column='VERSION', max_length=50, blank=True, null=True)  # Field name made lowercase.
     changedate = models.DateTimeField(db_column='CHANGEDATE', blank=True, null=True)  # Field name made lowercase.
     name = models.CharField(db_column='NAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -388,7 +388,7 @@ class Revisionhistory(models.Model):
 
 
 class Samplename(models.Model):
-    id = models.DecimalField(db_column='ID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    samplenameid = models.DecimalField(db_column='ID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     lastname = models.CharField(db_column='LASTNAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
     firstname = models.CharField(db_column='FIRSTNAME', max_length=50, blank=True, null=True)  # Field name made lowercase.
     gender = models.CharField(db_column='GENDER', max_length=50, blank=True, null=True)  # Field name made lowercase.
@@ -400,7 +400,7 @@ class Samplename(models.Model):
 
 
 class Samplestreet(models.Model):
-    id = models.DecimalField(db_column='ID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
+    samplestreetid = models.DecimalField(db_column='ID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     baseaddress = models.CharField(db_column='BASEADDRESS', max_length=50, blank=True, null=True)  # Field name made lowercase.
 
     class Meta:

@@ -3,13 +3,12 @@ from dateutil import parser
 import csv
 
 tables = [
-    Component
-    # City, Modeltype, Paint, Letterstyle, Retailstore, Customer, Customertransaction,
-    # Employee, Tubematerial, Manufacturer, Letterstyle, Componentname, Component,
-    # Bikeparts, Biketubes, Commonsizes, Groupcomponents, Groupo,
-    # Manufacturertransaction, Modelsize, Preference, Purchaseitem, Purchaseorder,
-    # Revisionhistory, Samplename, Samplestreet, Statetaxrate, Tempdatemade,
-    # Workarea, Bicycletubeusage, Bicycle
+    City, Modeltype, Paint, Letterstyle, Retailstore, Customer, Customertransaction,
+    Employee, Tubematerial, Manufacturer, Letterstyle, Componentname, Component,
+    Commonsizes, Groupo, Groupcomponents,
+    Manufacturertransaction, Modelsize, Preference, Purchaseorder, Purchaseitem,
+    Revisionhistory, Samplename, Samplestreet, Statetaxrate, Tempdatemade,
+    Workarea, Bicycle, Bicycletubeusage, Bikeparts, Biketubes
 ]
 
 def represents_int(s):
@@ -26,25 +25,32 @@ for table in tables:
         for record in reader:
             record =  {k.lower(): v for k, v in record.items()}
             for key, value in record.copy().items():
+                # General
                 if 'date' in key:
                     try:
                         record[key] = parser.parse(value)
                     except:
                         pass
-
-                # General
-                if key.endswith('id') and table.__name__.lower() + 'id' != key:
+                if key.endswith('id') and table.__name__.lower() + 'id' != key and key not in ['pricepaid']:
                     record[key + '_id'] = value
                     del record[key]
-                if key.endswith('type') and represents_int(value):
+                if key.endswith('type'):
                     record[key + '_id'] = value
                     del record[key]
                 if value == '':
                     record[key] = None
 
                 # One-off uses
-                # if key == 'category' and table == Component:
-                #     record[key] = Component.objects.get(componentname=value)
+                if key == 'category' and table == Component:
+                    try:
+                        record[key] = Componentname.objects.get(componentname=value)
+                    except Exception as e:
+                        print(e)
+                if key == 'serialnumber':
+                    try:
+                        record[key] = Bicycle.objects.get(serialnumber=value)
+                    except Exception as e:
+                        print(e)
 
             # forget about foriegn key restraints
             try:
