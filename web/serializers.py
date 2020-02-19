@@ -31,21 +31,9 @@ class CitySerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class CommonsizesSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Commonsizes
-        fields = "__all__"
-
-
 class ComponentSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Component
-        fields = "__all__"
-
-
-class ComponentnameSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Componentname
         fields = "__all__"
 
 
@@ -79,12 +67,6 @@ class GroupoSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class LetterstyleSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Letterstyle
-        fields = "__all__"
-
-
 class ManufacturerSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Manufacturer
@@ -97,27 +79,9 @@ class ManufacturertransactionSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class ModelsizeSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Modelsize
-        fields = "__all__"
-
-
-class ModeltypeSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Modeltype
-        fields = "__all__"
-
-
 class PaintSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Paint
-        fields = "__all__"
-
-
-class PreferenceSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Preference
         fields = "__all__"
 
 
@@ -157,25 +121,7 @@ class SamplestreetSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class StatetaxrateSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Statetaxrate
-        fields = "__all__"
-
-
-class TempdatemadeSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Tempdatemade
-        fields = "__all__"
-
-
 class TubematerialSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Tubematerial
-        fields = "__all__"
-
-
-class WorkareaSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.Workarea
         fields = "__all__"

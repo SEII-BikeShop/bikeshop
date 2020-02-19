@@ -28,19 +28,9 @@ class CityViewset(viewsets.ModelViewSet):
     serializer_class = serializers.CitySerializer
 
 
-class CommonsizesViewset(viewsets.ModelViewSet):
-    queryset = models.Commonsizes.objects.all()
-    serializer_class = serializers.CommonsizesSerializer
-
-
 class ComponentViewset(viewsets.ModelViewSet):
     queryset = models.Component.objects.all()
     serializer_class = serializers.ComponentSerializer
-
-
-class ComponentnameViewset(viewsets.ModelViewSet):
-    queryset = models.Componentname.objects.all()
-    serializer_class = serializers.ComponentnameSerializer
 
 
 class CustomerViewset(viewsets.ModelViewSet):
@@ -68,11 +58,6 @@ class GroupoViewset(viewsets.ModelViewSet):
     serializer_class = serializers.GroupoSerializer
 
 
-class LetterstyleViewset(viewsets.ModelViewSet):
-    queryset = models.Letterstyle.objects.all()
-    serializer_class = serializers.LetterstyleSerializer
-
-
 class ManufacturerViewset(viewsets.ModelViewSet):
     queryset = models.Manufacturer.objects.all()
     serializer_class = serializers.ManufacturerSerializer
@@ -83,24 +68,9 @@ class ManufacturertransactionViewset(viewsets.ModelViewSet):
     serializer_class = serializers.ManufacturertransactionSerializer
 
 
-class ModelsizeViewset(viewsets.ModelViewSet):
-    queryset = models.Modelsize.objects.all()
-    serializer_class = serializers.ModelsizeSerializer
-
-
-class ModeltypeViewset(viewsets.ModelViewSet):
-    queryset = models.Modeltype.objects.all()
-    serializer_class = serializers.ModeltypeSerializer
-
-
 class PaintViewset(viewsets.ModelViewSet):
     queryset = models.Paint.objects.all()
     serializer_class = serializers.PaintSerializer
-
-
-class PreferenceViewset(viewsets.ModelViewSet):
-    queryset = models.Preference.objects.all()
-    serializer_class = serializers.PreferenceSerializer
 
 
 class PurchaseitemViewset(viewsets.ModelViewSet):
@@ -133,21 +103,6 @@ class SamplestreetViewset(viewsets.ModelViewSet):
     serializer_class = serializers.SamplestreetSerializer
 
 
-class StatetaxrateViewset(viewsets.ModelViewSet):
-    queryset = models.Statetaxrate.objects.all()
-    serializer_class = serializers.StatetaxrateSerializer
-
-
-class TempdatemadeViewset(viewsets.ModelViewSet):
-    queryset = models.Tempdatemade.objects.all()
-    serializer_class = serializers.TempdatemadeSerializer
-
-
 class TubematerialViewset(viewsets.ModelViewSet):
     queryset = models.Tubematerial.objects.all()
     serializer_class = serializers.TubematerialSerializer
-
-
-class WorkareaViewset(viewsets.ModelViewSet):
-    queryset = models.Workarea.objects.all()
-    serializer_class = serializers.WorkareaSerializer
