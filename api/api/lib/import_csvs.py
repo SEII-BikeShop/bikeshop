@@ -1,4 +1,4 @@
-from web.models import *
+from api.models import *
 from dateutil import parser
 import csv
 
@@ -19,7 +19,7 @@ def represents_int(s):
         return False
 
 for table in tables:
-     with open('web/lib/data/{}_DATA_TABLE.csv'.format(table.__name__.upper()), encoding="utf8", errors='ignore') as file:
+     with open('api/lib/data/{}_DATA_TABLE.csv'.format(table.__name__.upper()), encoding="utf8", errors='ignore') as file:
         print('Creating data for table: ', table.__name__)
         reader = csv.DictReader(file)
         for record in reader:

@@ -42,7 +42,7 @@ class Bicycle(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'BICYCLE'
 
 
@@ -53,7 +53,7 @@ class Bicycletubeusage(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'BICYCLETUBEUSAGE'
         unique_together = (('serialnumber', 'tubeid'), ('serialnumber', 'tubeid'),)
 
@@ -69,7 +69,7 @@ class Bikeparts(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'BIKEPARTS'
         unique_together = (('serialnumber', 'componentid'), ('serialnumber', 'componentid'),)
 
@@ -82,7 +82,7 @@ class Biketubes(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'BIKETUBES'
         unique_together = (('serialnumber', 'tubename'), ('serialnumber', 'tubename'),)
 
@@ -102,7 +102,7 @@ class City(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'CITY'
 
 
@@ -112,7 +112,7 @@ class Commonsizes(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'COMMONSIZES'
         unique_together = (('modeltype', 'framesize'), ('modeltype', 'framesize'),)
 
@@ -136,7 +136,7 @@ class Component(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'COMPONENT'
 
 
@@ -147,7 +147,7 @@ class Componentname(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'COMPONENTNAME'
 
 
@@ -163,7 +163,7 @@ class Customer(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'CUSTOMER'
 
 
@@ -187,7 +187,7 @@ class Employee(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'EMPLOYEE'
 
 
@@ -201,7 +201,7 @@ class Customertransaction(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'CUSTOMERTRANSACTION'
         unique_together = (('customerid', 'transactiondate'), ('customerid', 'transactiondate'),)
 
@@ -213,7 +213,7 @@ class Groupcomponents(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'GROUPCOMPONENTS'
         unique_together = (('groupid', 'componentid'), ('groupid', 'componentid'),)
 
@@ -228,7 +228,7 @@ class Groupo(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'GROUPO'
 
 
@@ -238,7 +238,7 @@ class Letterstyle(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'LETTERSTYLE'
 
 
@@ -254,7 +254,7 @@ class Manufacturer(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'MANUFACTURER'
 
 
@@ -268,7 +268,7 @@ class Manufacturertransaction(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'MANUFACTURERTRANSACTION'
         unique_together = (('manufacturerid', 'transactiondate', 'reference'), ('manufacturerid', 'transactiondate', 'reference'),)
 
@@ -285,7 +285,7 @@ class Modelsize(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'MODELSIZE'
         unique_together = (('modeltype', 'msize'), ('modeltype', 'msize'),)
 
@@ -297,7 +297,7 @@ class Modeltype(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'MODELTYPE'
 
 
@@ -311,7 +311,7 @@ class Paint(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'PAINT'
 
 
@@ -323,7 +323,7 @@ class Preference(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'PREFERENCE'
 
 
@@ -336,7 +336,7 @@ class Purchaseitem(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'PURCHASEITEM'
         unique_together = (('purchaseid', 'componentid'), ('purchaseid', 'componentid'),)
 
@@ -354,7 +354,7 @@ class Purchaseorder(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'PURCHASEORDER'
 
 
@@ -370,7 +370,7 @@ class Retailstore(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'RETAILSTORE'
 
 
@@ -383,7 +383,7 @@ class Revisionhistory(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'REVISIONHISTORY'
 
 
@@ -395,7 +395,7 @@ class Samplename(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'SAMPLENAME'
 
 
@@ -405,7 +405,7 @@ class Samplestreet(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'SAMPLESTREET'
 
 
@@ -415,7 +415,7 @@ class Statetaxrate(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'STATETAXRATE'
 
 
@@ -425,7 +425,7 @@ class Tempdatemade(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'TEMPDATEMADE'
 
 
@@ -443,7 +443,7 @@ class Tubematerial(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'TUBEMATERIAL'
 
 
@@ -453,5 +453,5 @@ class Workarea(models.Model):
 
     class Meta:
         managed = False
-        app_label = 'bikeshop_web'
+        app_label = 'bikeshop_api'
         db_table = 'WORKAREA'
