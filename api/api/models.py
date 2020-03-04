@@ -151,6 +151,14 @@ class Componentname(models.Model):
         db_table = 'COMPONENTNAME'
 
 
+class Users(models.Model):
+    id = models.DecimalField(max_digits=38, decimal_places=0, primary_key=True)
+    username = models.TextField()
+    password = models.TextField()
+    usertype = models.TextField()
+    usertypeid = models.DecimalField(max_digits=38, decimal_places=0)
+
+
 class Customer(models.Model):
     customerid = models.DecimalField(db_column='CUSTOMERID', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     phone = models.CharField(db_column='PHONE', max_length=50, blank=True, null=True)  # Field name made lowercase.
