@@ -1,8 +1,10 @@
-{% extends "layout.html" %}
+{% extends override_base|default:'layout.html' %}
 
 {% block content %}
 
 {% load crispy_forms_tags %}
+
+{{ error }}
 
 <form method="post">
   {% csrf_token %}

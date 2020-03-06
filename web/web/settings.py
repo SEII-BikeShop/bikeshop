@@ -76,7 +76,16 @@ WSGI_APPLICATION = 'web.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {}
+from .config import *
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bikeshop',
+        'USER': USER,
+        'PASSWORD': PASS
+    }
+}
 
 
 # Password validation

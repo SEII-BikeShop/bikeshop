@@ -3,3 +3,5 @@ configs/__pycache__/*
 __pycache__
 *.pyc
 .DS_Store
+api/api/configs/config.py
+web/web/config.py
