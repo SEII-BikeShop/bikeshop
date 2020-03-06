@@ -2,18 +2,36 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from .forms import LoginForm
 import requests
+
+from django.core import serializers
 import json
 
 def index(request):
+    bikes = []
+    if request.session.get('bikes', False):
+        bikes = request.session.get('bikes')
+    else:
+        url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json'
+        filter = {'key': 'value'}
+        bikes = requests.get(url, data = filter)
+        bikes = bikes.json()
+
+        print(bikes)
+
+        request.session['bikes'] = bikes
+
     if request.session.get('account', False):
         print('LOGGED IN')
         data = request.session.get('account', False)
         data['override_base'] = 'layout_account.html'
+        data['bikes'] = bikes
+
         return render(request, 'index.html', data)
     else:
         # Cookie is not set
         print('NOT LOGGED IN')
-        return render(request, 'index.html')
+        return render(request, 'index.html', { 'bikes': bikes })
+        # return render(request, 'index.html')
 
 def login(request):
     if request.method == 'POST':
