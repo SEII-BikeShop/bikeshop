@@ -3,10 +3,13 @@ from . import models
 from . import serializers
 
 
+class UsersViewset(viewsets.ModelViewSet):
+    queryset = models.Users.objects.all()
+    serializer_class = serializers.UsersSerializer
+
 class BicycleViewset(viewsets.ModelViewSet):
     queryset = models.Bicycle.objects.all()
     serializer_class = serializers.BicycleSerializer
-
 
 class BicycletubeusageViewset(viewsets.ModelViewSet):
     queryset = models.Bicycletubeusage.objects.all()

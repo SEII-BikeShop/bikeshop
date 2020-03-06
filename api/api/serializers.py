@@ -1,6 +1,11 @@
 from rest_framework import serializers
 from . import models
 
+class UsersSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Users
+        fields = "__all__"
+
 class BicycleSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Bicycle
@@ -11,8 +16,8 @@ class BicycletubeusageSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Bicycletubeusage
         fields = "__all__"
-        
-        
+
+
 class BikepartsSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Bikeparts

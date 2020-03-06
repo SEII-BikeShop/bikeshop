@@ -2,6 +2,7 @@ from rest_framework import routers
 from api import api_views as views
 
 router = routers.DefaultRouter()
+router.register(r'users', views.UsersViewset)
 router.register(r'bicycle', views.BicycleViewset)
 router.register(r'bicycletubeusage', views.BicycletubeusageViewset)
 router.register(r'bikeparts', views.BikepartsViewset)
