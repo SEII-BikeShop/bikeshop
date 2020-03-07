@@ -2,7 +2,41 @@
 
 {% block content %}
 
+<h1>Bikes</h1>
+<hr />
+
 <div class="row">
+  {% for bike in bikes %}
+    <div class="col-sm-4" style="padding-bottom: 2rem;">
+      <div class="card">
+        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        <div class="card-body">
+          <h5 class="card-title">{{ bike.modeltype }} Bike</h5>
+          <p class="card-text">
+            List Price: ${{ bike.listprice }}
+            <br/>
+            Construction: {{ bike.construction }}
+            <br/>
+            Letter Style: {{ bike.letterstyleid }}
+            <br/>
+            Frame Size: {{ bike.framesize }}
+            <br/>
+            Top Tube: {{ bike.toptube }}
+            <br/>
+            Chain Stay: {{ bike.chainstay }}
+            <br/>
+            Head Tube Angle: {{ bike.headtubeangle }}
+            <br/>
+            Seat Tube Angle: {{ bike.seattubeangle }}
+          </p>
+          <a href="#" class="btn btn-primary">Purchase</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- <div class="row">
     <div class="col-md-4">
         <h2>Get started right away </h2>
         <p>
@@ -20,6 +54,6 @@
         <p>Learn more about all you can do with Azure DevOps project by visiting the documentation</p>
         <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862126">Learn more &raquo;</a></p>
     </div>
-</div>
+</div> -->
 
 {% endblock %}

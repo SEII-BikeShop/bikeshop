@@ -15,22 +15,21 @@ def index(request):
         filter = {'key': 'value'}
         bikes = requests.get(url, data = filter)
         bikes = bikes.json()
-
-        print(bikes)
-
         request.session['bikes'] = bikes
+
+    print(bikes[0])
 
     if request.session.get('account', False):
         print('LOGGED IN')
         data = request.session.get('account', False)
         data['override_base'] = 'layout_account.html'
-        data['bikes'] = bikes
+        data['bikes'] = bikes[0:330]
 
         return render(request, 'index.html', data)
     else:
         # Cookie is not set
         print('NOT LOGGED IN')
-        return render(request, 'index.html', { 'bikes': bikes })
+        return render(request, 'index.html', { 'bikes': bikes[0:330] })
         # return render(request, 'index.html')
 
 def login(request):
