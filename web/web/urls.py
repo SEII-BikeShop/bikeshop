@@ -21,5 +21,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('index', views.index, name='index'),
     path('login', views.login, name='login'),
-    path('logout', views.logout, name='logout')
+    path('logout', views.logout, name='logout'),
+    path('delete_bike/<int:id>/', views.delete_bike, name='delete_bike')
 ]

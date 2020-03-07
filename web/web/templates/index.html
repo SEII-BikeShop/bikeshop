@@ -9,7 +9,6 @@
   {% for bike in bikes %}
     <div class="col-sm-4" style="padding-bottom: 2rem;">
       <div class="card">
-        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
         <div class="card-body">
           <h5 class="card-title">{{ bike.modeltype }} Bike</h5>
           <p class="card-text">
@@ -30,30 +29,13 @@
             Seat Tube Angle: {{ bike.seattubeangle }}
           </p>
           <a href="#" class="btn btn-primary">Purchase</a>
+          {% if logged_in and usertype == 'employee' %}
+            <a href="{% url 'delete_bike' bike.serialnumber %}" class="btn btn-danger">Delete Bike</a>
+          {% endif %}
         </div>
       </div>
     </div>
   {% endfor %}
 </div>
-
-<!-- <div class="row">
-    <div class="col-md-4">
-        <h2>Get started right away </h2>
-        <p>
-            Clone your code repository and start developing your application on IDE of your choice
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862409">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Continuous Delivery</h2>
-        <p>View your CI/CD pipeline on Visual Studio Team Services and customize it as per your needs</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862410">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Azure DevOps Project</h2>
-        <p>Learn more about all you can do with Azure DevOps project by visiting the documentation</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862126">Learn more &raquo;</a></p>
-    </div>
-</div> -->
 
 {% endblock %}

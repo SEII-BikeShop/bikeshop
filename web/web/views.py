@@ -15,22 +15,25 @@ def index(request):
         filter = {'key': 'value'}
         bikes = requests.get(url, data = filter)
         bikes = bikes.json()
-        request.session['bikes'] = bikes
+        request.session['bikes'] = bikes[0:330]
 
     print(bikes[0])
 
     if request.session.get('account', False):
         print('LOGGED IN')
         data = request.session.get('account', False)
+
+        print(data)
+
         data['override_base'] = 'layout_account.html'
-        data['bikes'] = bikes[0:330]
+        data['logged_in'] = True
+        data['bikes'] = bikes
 
         return render(request, 'index.html', data)
     else:
         # Cookie is not set
         print('NOT LOGGED IN')
-        return render(request, 'index.html', { 'bikes': bikes[0:330] })
-        # return render(request, 'index.html')
+        return render(request, 'index.html', { 'bikes': bikes })
 
 def login(request):
     if request.method == 'POST':
@@ -69,3 +72,17 @@ def login(request):
 def logout(request):
     del request.session['account']
     return HttpResponseRedirect('index')
+
+def delete_bike(request, id):
+    url = 'http://127.0.0.1:8080/api/v0/bicycle/{}?format=json'.format(id)
+    filter = {}
+    bikes = requests.delete(url, data = filter)
+
+    iterator_bikes = request.session.get('bikes', False)
+    for index, bike in enumerate(iterator_bikes):
+        if int(id) == int(bike['serialnumber']):
+            del iterator_bikes[index]
+
+    request.session['bikes'] = iterator_bikes
+
+    return HttpResponseRedirect('/index')
