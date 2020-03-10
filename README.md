@@ -3,18 +3,18 @@
 1. Download the Virtual Machine provided through team OneDrive.
 2. Install necessary virtual drivers to run on the local machine.
 3. Environment should be prepared with the following MySQL configuration:
-  * MySQL 3.7 or higher
-  * Username: root
-  * Password: please
+        * MySQL 3.7 or higher
+        * Username: root
+        * Password: please
 4. Environment should be prepared with the following Python configuration:
-  * Python 3.8 or higher
-  * Pip3
+        * Python 3.8 or higher
+        * Pip3
 5. Enviroment should be prepared with the following Python plugins:
-  * django
-  * djangorestframework
-  * django-filter
-  * django-crispy-forms
-  * mysql-client
+        * django
+        * djangorestframework
+        * django-filter
+        * django-crispy-forms
+        * mysql-client
   
 ## Service Preparation
 1. Deploy MySQL script to populate MySQL with the database and tables.
