@@ -1,15 +1,13 @@
 from rest_framework import viewsets
+from rest_framework import pagination
 from . import models
 from . import serializers
 
 
 class BicycleViewset(viewsets.ModelViewSet):
-    page_size = 100
-    page_size_query_param = 'page_size'
-    max_page_size = 1000
     queryset = models.Bicycle.objects.all()
     serializer_class = serializers.BicycleSerializer
-
+    pagination_class=pagination.LimitOffsetPagination
 
 class BicycletubeusageViewset(viewsets.ModelViewSet):
     queryset = models.Bicycletubeusage.objects.all()
