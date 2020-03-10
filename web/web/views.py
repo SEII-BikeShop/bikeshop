@@ -86,3 +86,21 @@ def delete_bike(request, id):
     request.session['bikes'] = iterator_bikes
 
     return HttpResponseRedirect('/index')
+
+def add_bike(request):
+    return render(request, 'add_bike.html')
+
+def create_admin(request):
+    admin_info = {
+        "Admin": {
+            "FirstName": "Austin",
+            "LastName": "Lee",
+            "Middle": "Johnathan",
+            "Email": "LEEAJ1@ETSU.EDU",
+            "UserName": "alee"
+        },
+        "Password": "password"
+    }
+    r = requests.post('https://bikeshopmonitoring.duckdns.org/Admin/Create', data=admin_info)
+    if r.status_code == 200:
+        print(r)

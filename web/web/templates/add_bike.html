@@ -1,0 +1,27 @@
+{% extends override_base|default:'layout.html' %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<h1>Add a Bike</h1>
+<hr />
+
+{{ error }}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+  <table>
+    <tr>
+      <td>Name: </td>
+      <td><input type="text"></input></td>
+    <tr>
+      <td>Sales Price: </td>
+      <td><input type="text"></input></td>
+    </tr>
+  </table>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+{% endblock %}
