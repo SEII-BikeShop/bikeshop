@@ -31,3 +31,34 @@ def get_account_token():
     result = requests.post(url, data = data, verify=False, headers={"Content-Type":"application/json"})
     print(result)
 # get_account_token()
+
+def send_bike_data(bike, token):
+    url = 'https://bikeshopmonitoring.duckdns.org/Bike/Create'
+    data = {
+        "Name": bike['serialnumber'] + "' " + bike['modeltype'],
+        "SalesPrice": float(bike['saleprice'])
+    }
+    print(json.dumps(data))
+    result = requests.post(url, data = json.dumps(data), verify=False, headers={
+        "Token": token, "Content-Type": "application/json"
+    })
+    print(result)
+    print('\n')
+
+def get_bike_data():
+    offset = 1
+
+    token = TOKEN
+
+    while True:
+        url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=20&offset={}'.format(offset)
+        bikes = requests.get(url)
+        bikes = bikes.json()['results']
+
+        if bikes == []:
+            return None
+
+        for bike in bikes:
+            send_bike_data(bike, token)
+        offset += 1
+get_bike_data()
