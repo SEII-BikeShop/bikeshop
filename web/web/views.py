@@ -85,6 +85,13 @@ def delete_bike(request, id):
     return HttpResponseRedirect('/index')
 
 def update_bike(request, id):
+    layout = ''
+    if request.session.get('account', False):
+        layout = 'layout_account.html'
+    else:
+        layout = 'layout.html'
+
+
     if request.method == 'POST':
             # create a form instance and populate it with data from the request:
             form = EditForm(request.POST)
@@ -99,7 +106,9 @@ def update_bike(request, id):
                     return HttpResponseRedirect('/index')
                 except Exception:
                     print('NO USER')
-                    return render(request, 'edit.html', {'form': form, 'error': 'ERROR: Data is invalid'})
+                    return render(request, 'edit.html', {
+                        'form': form, 'error': 'ERROR: Data is invalid', 'override_base': layout
+                    })
     # if a GET (or any other method) we'll create a blank form
     else:
         url = 'http://127.0.0.1:8080/api/v0/bicycle/{}?format=json'.format(id)
@@ -107,4 +116,4 @@ def update_bike(request, id):
         parsed_data = json.loads(data.text)
         form = EditForm(initial=parsed_data)
 
-    return render(request, 'edit.html', {'form': form})
+    return render(request, 'edit.html', {'form': form, 'override_base': layout})
