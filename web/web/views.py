@@ -1,6 +1,6 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from .forms import LoginForm, SearchForm
+from .forms import LoginForm, SearchForm, EditForm
 import requests
 
 from django.core import serializers
@@ -83,3 +83,28 @@ def delete_bike(request, id):
     bikes = requests.delete(url, data = filter)
 
     return HttpResponseRedirect('/index')
+
+def update_bike(request, id):
+    if request.method == 'POST':
+            # create a form instance and populate it with data from the request:
+            form = EditForm(request.POST)
+            if form.is_valid():
+                try:
+                    url = 'http://127.0.0.1:8080/api/v0/bicycle/{}/'.format(id)
+                    data = form.cleaned_data
+                    result = requests.patch(url, data = data)
+
+                    print(result)
+
+                    return HttpResponseRedirect('/index')
+                except Exception:
+                    print('NO USER')
+                    return render(request, 'edit.html', {'form': form, 'error': 'ERROR: Data is invalid'})
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        url = 'http://127.0.0.1:8080/api/v0/bicycle/{}?format=json'.format(id)
+        data = requests.get(url)
+        parsed_data = json.loads(data.text)
+        form = EditForm(initial=parsed_data)
+
+    return render(request, 'edit.html', {'form': form})

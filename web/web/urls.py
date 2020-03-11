@@ -22,5 +22,6 @@ urlpatterns = [
     path('index', views.index, name='index'),
     path('login', views.login, name='login'),
     path('logout', views.logout, name='logout'),
-    path('delete_bike/<int:id>/', views.delete_bike, name='delete_bike')
+    path('delete_bike/<int:id>/', views.delete_bike, name='delete_bike'),
+    path('update_bike/<int:id>/', views.update_bike, name='update_bike')
 ]
