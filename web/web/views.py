@@ -1,18 +1,33 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from .forms import LoginForm
+from .forms import LoginForm, SearchForm
 import requests
 
 from django.core import serializers
 import json
 
 def index(request):
-    url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=120&offset=1'
+    url = ''
+    if request.method == 'POST':
+        # create a form instance and populate it with data from the request:
+        form = SearchForm(request.POST)
+        if form.is_valid():
+
+            print(form.cleaned_data['search'])
+
+            search = form.cleaned_data['search']
+            url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=120&offset=1&?search={}'.format(
+                search
+            )
+    else:
+        form = SearchForm()
+        url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=120&offset=1'
+
     filter = {'key': 'value'}
     bikes = requests.get(url, data = filter)
     bikes = bikes.json()['results']
 
-    print(bikes[0])
+    # print(bikes[0])
 
     if request.session.get('account', False):
         print('LOGGED IN')
@@ -23,12 +38,13 @@ def index(request):
         data['override_base'] = 'layout_account.html'
         data['logged_in'] = True
         data['bikes'] = bikes
+        data['form'] = form
 
         return render(request, 'index.html', data)
     else:
         # Cookie is not set
         print('NOT LOGGED IN')
-        return render(request, 'index.html', { 'bikes': bikes })
+        return render(request, 'index.html', { 'form': form, 'bikes': bikes })
 
 def login(request):
     if request.method == 'POST':
