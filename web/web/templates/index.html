@@ -43,9 +43,12 @@
             <br/>
             Seat Tube Angle: {{ bike.seattubeangle }}
           </p>
-          <a href="#" class="btn btn-primary">Purchase</a>
+          {% if logged_in %}
+            <a href="#" class="btn btn-primary btn-sm">Purchase</a>
+          {% endif %}
           {% if logged_in and usertype == 'employee' %}
-            <a href="{% url 'delete_bike' bike.serialnumber %}" class="btn btn-danger">Delete Bike</a>
+            <a href="{% url 'update_bike' bike.serialnumber %}" class="btn btn-secondary btn-sm">Edit</a>
+            <a href="{% url 'delete_bike' bike.serialnumber %}" class="btn btn-danger btn-sm">Delete</a>
           {% endif %}
         </div>
       </div>
