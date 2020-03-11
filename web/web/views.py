@@ -7,15 +7,10 @@ from django.core import serializers
 import json
 
 def index(request):
-    bikes = []
-    if request.session.get('bikes', False):
-        bikes = request.session.get('bikes')
-    else:
-        url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json'
-        filter = {'key': 'value'}
-        bikes = requests.get(url, data = filter)
-        bikes = bikes.json()
-        request.session['bikes'] = bikes[0:330]
+    url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=120&offset=1'
+    filter = {'key': 'value'}
+    bikes = requests.get(url, data = filter)
+    bikes = bikes.json()['results']
 
     print(bikes[0])
 
@@ -77,13 +72,6 @@ def delete_bike(request, id):
     url = 'http://127.0.0.1:8080/api/v0/bicycle/{}?format=json'.format(id)
     filter = {}
     bikes = requests.delete(url, data = filter)
-
-    iterator_bikes = request.session.get('bikes', False)
-    for index, bike in enumerate(iterator_bikes):
-        if int(id) == int(bike['serialnumber']):
-            del iterator_bikes[index]
-
-    request.session['bikes'] = iterator_bikes
 
     return HttpResponseRedirect('/index')
 
