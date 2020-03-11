@@ -24,3 +24,10 @@ def create_account():
     data = requests.post(url, data = data, verify=False, headers={"Content-Type":"application/json"})
     print(data)
 # create_account()
+
+def get_account_token():
+    url = 'https://bikeshopmonitoring.duckdns.org/Admin/Login/'
+    data = { 'UserName': USERNAME, 'Password': PASSWORD }
+    result = requests.post(url, data = data, verify=False, headers={"Content-Type":"application/json"})
+    print(result)
+# get_account_token()
