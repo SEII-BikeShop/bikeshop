@@ -10,13 +10,7 @@ class BicycleSerializer(serializers.ModelSerializer):
     http_method_names = ['GET', 'PUT', 'DELETE']
 
     def delete(self, request, id):
-
-        print(id)
-
         bike = self.get_object(id)
-
-        print(bike)
-
         bike.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 

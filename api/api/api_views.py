@@ -14,11 +14,11 @@ class BicycleViewset(viewsets.ModelViewSet):
     serializer_class = serializers.BicycleSerializer
     pagination_class = pagination.LimitOffsetPagination
     filter_backends = [filters.SearchFilter]
-    search_fields = ['serialnumber', 'customerid', 'modeltype', 'paintid', 'framesize', 'orderdate', 'startdate',
-                     'shipdate', 'shipemployee', 'frameassembler', 'painter', 'construction', 'waterbottlebrazeons',
-                     'customname', 'letterstyleid', 'storeid', 'employeeid', 'toptube', 'chainstay', 'headtubeangle',
-                     'seattubeangle', 'listprice', 'saleprice', 'salestax', 'salestate', 'shipprice', 'frameprice',
-                     'componentlist']
+    search_fields = [
+        'modeltype__modeltype', 'listprice', 'construction',
+        'letterstyleid__letterstyle', 'framesize', 'toptube',
+        'chainstay', 'headtubeangle', 'seattubeangle'
+    ]
 
 class BicycletubeusageViewset(viewsets.ModelViewSet):
     queryset = models.Bicycletubeusage.objects.all()

@@ -1,0 +1,21 @@
+{% extends override_base|default:'layout.html' %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<h1>Edit Bike</h1>
+<hr />
+
+{{ error }}
+
+<form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+  <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+<br />
+<br />
+
+{% endblock %}
