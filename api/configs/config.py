@@ -1,3 +1,3 @@
 NAME='bikeshop'
 USER='root'
-PASS='please'
+PASS='password'
