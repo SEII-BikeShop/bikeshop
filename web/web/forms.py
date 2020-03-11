@@ -35,9 +35,3 @@ class EditForm(forms.Form):
     chainstay = forms.CharField(label='Chain Stay')
     headtubeangle = forms.CharField(label='Head Tube Angle')
     seattubeangle = forms.CharField(label='Seat Tube Angle')
-
-class BicycleForm(forms.ModelForm):
-    class Meta:
-        model = Bicycle
-        fields =['modeltype', 'listprice' 'construction', 'letterstyleid',
-            'framesize', 'toptube', 'chainstay', 'headtubeangle', 'seattubeangle']
