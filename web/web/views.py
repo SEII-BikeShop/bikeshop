@@ -12,11 +12,8 @@ def index(request):
         # create a form instance and populate it with data from the request:
         form = SearchForm(request.POST)
         if form.is_valid():
-
-            print(form.cleaned_data['search'])
-
             search = form.cleaned_data['search']
-            url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=120&offset=1&?search={}'.format(
+            url = 'http://127.0.0.1:8080/api/v0/bicycle/?format=json&limit=120&offset=1&search={}'.format(
                 search
             )
     else:
@@ -27,13 +24,9 @@ def index(request):
     bikes = requests.get(url, data = filter)
     bikes = bikes.json()['results']
 
-    # print(bikes[0])
-
     if request.session.get('account', False):
         print('LOGGED IN')
         data = request.session.get('account', False)
-
-        print(data)
 
         data['override_base'] = 'layout_account.html'
         data['logged_in'] = True
