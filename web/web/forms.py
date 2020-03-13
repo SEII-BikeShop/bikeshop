@@ -37,19 +37,32 @@ class EditForm(forms.Form):
     headtubeangle = forms.CharField(label='Head Tube Angle')
     seattubeangle = forms.CharField(label='Seat Tube Angle')
 
-# class BicycleForm(forms.ModelForm):
-#     class Meta:
-#         model = Bicycle
-#         fields = ['modeltype', 'listprice', 'construction', 'letterstyleid',
-#             'framesize', 'toptube', 'chainstay', 'headtubeangle', 'seattubeangle']
-
 class CreateForm(forms.Form):
-    modeltype = forms.ChoiceField(choices=MODELTYPES, label='Model Type')
-    listprice = forms.CharField(label='List Price')
-    construction = forms.CharField(label='Construction')
-    letterstyleid = forms.ChoiceField(choices=LETTERSTYLE, label='Letter Style')
-    framesize = forms.CharField(label='Frame Size')
-    toptube = forms.CharField(label='Top Tube')
-    chainstay = forms.CharField(label='Chain Stay')
-    headtubeangle = forms.CharField(label='Head Tube Angle')
-    seattubeangle = forms.CharField(label='Seat Tube Angle')
+    serialnumber = forms.DecimalField(required=True, label='Serial Number')
+    customerid = forms.DecimalField(required=False, label='Customer ID')
+    modeltype = forms.ChoiceField(required=False, choices=MODELTYPES, label='Model Type')
+    paintid = forms.DecimalField(required=False, label='Paint ID')
+    framesize = forms.CharField(required=False, label='Frame Size')
+    orderdate = forms.DateTimeField(required=False, label='Order Date')
+    startdate = forms.DateTimeField(required=False, label='Start Date')
+    shipdate = forms.DateTimeField(required=False, label='Ship Date')
+    shipemployee = forms.DecimalField(required=False, label='Ship Employee')
+    frameassembler = forms.DecimalField(required=False, label="Frame Assembler")
+    painter = forms.DecimalField(required=False, label="Painter")
+    construction = forms.CharField(required=False, label='Construction')
+    waterbottlebrazeons = forms.DecimalField(required=False, label="Water Bottle Braze-ons")
+    customname = forms.CharField(required=False, label="Custom Name")
+    letterstyleid = forms.ChoiceField(required=False, choices=LETTERSTYLE, label='Letter Style')
+    storeid = forms.DecimalField(required=False, label='Store ID')
+    employeeid = forms.DecimalField(required=False, label='Employee ID')
+    toptube = forms.CharField(required=False, label='Top Tube')
+    chainstay = forms.CharField(required=False, label='Chain Stay')
+    headtubeangle = forms.CharField(required=False, label='Head Tube Angle')
+    seattubeangle = forms.CharField(required=False, label='Seat Tube Angle')
+    listprice = forms.CharField(required=False, label='List Price')
+    saleprice = forms.DecimalField(required=False, label='Sale Price')
+    salestax = forms.DecimalField(required=False, label='Sales Tax')
+    salestate = forms.DecimalField(required=False, label='Sale State')
+    shipprice = forms.DecimalField(required=False, label='Ship Price')
+    frameprice = forms.DecimalField(required=False, label='Frame Price')
+    componentlist = forms.DecimalField(required=False, label='Component List')

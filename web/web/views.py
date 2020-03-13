@@ -125,19 +125,30 @@ def add_bike(request):
     else:
         layout = 'layout.html'
 
+
     if request.method == 'POST':
             # create a form instance and populate it with data from the request:
             form = CreateForm(request.POST)
             if form.is_valid():
                 try:
                     data = form.cleaned_data
-                    b = Bicycle(data)
-                    b.save()
+                    url = 'http://127.0.0.1:8080/api/v0/bicycle/'#{}/'.format(data['serialnumber'])
+                    result = requests.post(url, data = data)
+
+                    print(result)
+
                     return HttpResponseRedirect('/index')
                 except Exception as e:
                     print(e)
+                    print(data)
                     return render(request, 'add_bike.html', {
                         'form': form, 'error': 'ERROR: Data is invalid', 'override_base': layout
                     })
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        url = 'http://127.0.0.1:8080/api/v0/bicycle/{}?format=json'.format(id)
+        data = requests.get(url)
+        parsed_data = json.loads(data.text)
+        form = CreateForm(initial=parsed_data)
 
     return render(request, 'add_bike.html', {'form': form, 'override_base': layout})
