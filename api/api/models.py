@@ -9,7 +9,6 @@
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
 
-
 class Bicycle(models.Model):
     serialnumber = models.DecimalField(db_column='SERIALNUMBER', primary_key=True, max_digits=38, decimal_places=0)  # Field name made lowercase.
     customerid = models.ForeignKey('Customer', models.DO_NOTHING, db_column='CUSTOMERID', blank=True, null=True)  # Field name made lowercase.
