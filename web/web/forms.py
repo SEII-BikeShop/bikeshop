@@ -1,5 +1,6 @@
 from django import forms
 
+# from .models import Bicycle
 MODELTYPES = (
     ('Hybrid', 'Hybrid'),
     ('Mountain', 'Mountain'),
@@ -26,6 +27,23 @@ class SearchForm(forms.Form):
     search = forms.CharField(label='Search', max_length=200)
 
 class EditForm(forms.Form):
+    modeltype = forms.ChoiceField(choices=MODELTYPES, label='Model Type')
+    listprice = forms.CharField(label='List Price')
+    construction = forms.CharField(label='Construction')
+    letterstyleid = forms.ChoiceField(choices=LETTERSTYLE, label='Letter Style')
+    framesize = forms.CharField(label='Frame Size')
+    toptube = forms.CharField(label='Top Tube')
+    chainstay = forms.CharField(label='Chain Stay')
+    headtubeangle = forms.CharField(label='Head Tube Angle')
+    seattubeangle = forms.CharField(label='Seat Tube Angle')
+
+# class BicycleForm(forms.ModelForm):
+#     class Meta:
+#         model = Bicycle
+#         fields = ['modeltype', 'listprice', 'construction', 'letterstyleid',
+#             'framesize', 'toptube', 'chainstay', 'headtubeangle', 'seattubeangle']
+
+class CreateForm(forms.Form):
     modeltype = forms.ChoiceField(choices=MODELTYPES, label='Model Type')
     listprice = forms.CharField(label='List Price')
     construction = forms.CharField(label='Construction')

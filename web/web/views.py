@@ -1,6 +1,6 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-from .forms import LoginForm, SearchForm, EditForm
+from .forms import LoginForm, SearchForm, EditForm, CreateForm
 import requests
 
 from django.core import serializers
@@ -117,3 +117,27 @@ def update_bike(request, id):
         form = EditForm(initial=parsed_data)
 
     return render(request, 'edit.html', {'form': form, 'override_base': layout})
+
+def add_bike(request):
+    layout = ''
+    if request.session.get('account', False):
+        layout = 'layout_account.html'
+    else:
+        layout = 'layout.html'
+
+    if request.method == 'POST':
+            # create a form instance and populate it with data from the request:
+            form = CreateForm(request.POST)
+            if form.is_valid():
+                try:
+                    data = form.cleaned_data
+                    b = Bicycle(data)
+                    b.save()
+                    return HttpResponseRedirect('/index')
+                except Exception as e:
+                    print(e)
+                    return render(request, 'add_bike.html', {
+                        'form': form, 'error': 'ERROR: Data is invalid', 'override_base': layout
+                    })
+
+    return render(request, 'add_bike.html', {'form': form, 'override_base': layout})
