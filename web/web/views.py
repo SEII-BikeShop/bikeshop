@@ -124,6 +124,7 @@ def add_bike(request):
         layout = 'layout_account.html'
     else:
         layout = 'layout.html'
+    usertype = request.session.get('account', False)['usertype']
 
 
     if request.method == 'POST':
@@ -142,7 +143,8 @@ def add_bike(request):
                     print(e)
                     print(data)
                     return render(request, 'add_bike.html', {
-                        'form': form, 'error': 'ERROR: Data is invalid', 'override_base': layout
+                        'form': form, 'error': 'ERROR: Data is invalid',
+                        'override_base': layout, 'usertype': usertype
                     })
     # if a GET (or any other method) we'll create a blank form
     else:
@@ -151,4 +153,4 @@ def add_bike(request):
         parsed_data = json.loads(data.text)
         form = CreateForm(initial=parsed_data)
 
-    return render(request, 'add_bike.html', {'form': form, 'override_base': layout})
+    return render(request, 'add_bike.html', {'form': form, 'override_base': layout, 'usertype': usertype})
