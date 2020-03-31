@@ -108,3 +108,9 @@ class EndpointTestCase(APITestCase):
         url = 'http://127.0.0.1:8080/api/v0/samplestreet/2?format=json'
         response = requests.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_tubematerial(self):
+        data = {}
+        url = 'http://127.0.0.1:8080/api/v0/tubematerial/220?format=json'
+        response = requests.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
