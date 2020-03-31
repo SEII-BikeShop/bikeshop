@@ -7,6 +7,12 @@ import requests
 
 class EndpointTestCase(APITestCase):
 
+    def test_successfully_fail(self):
+        data = {}
+        url = 'http://127.0.0.1:8080/api/v0/random_place'
+        response = requests.get(url)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
     def test_get_user(self):
         data = {}
         url = 'http://127.0.0.1:8080/api/v0/users/1?format=json'
