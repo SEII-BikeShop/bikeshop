@@ -90,3 +90,9 @@ class EndpointTestCase(APITestCase):
         url = 'http://127.0.0.1:8080/api/v0/retailstore/2?format=json'
         response = requests.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_revisionhistory(self):
+        data = {}
+        url = 'http://127.0.0.1:8080/api/v0/revisionhistory/2?format=json'
+        response = requests.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
