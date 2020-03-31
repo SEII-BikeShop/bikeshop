@@ -45,12 +45,18 @@ class EndpointTestCase(APITestCase):
 
     def test_get_bicycle_tube_usage(self):
         data = {}
-        url = 'http://127.0.0.1:8080/api/v0/bicycletubeusage/1/?format=json'
+        url = 'http://127.0.0.1:8080/api/v0/bicycletubeusage/1?format=json'
         response = requests.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
-    def test_get_bikeparts(self):
+    def test_get_biketube(self):
         data = {}
-        url = 'http://127.0.0.1:8080/api/v0/bikeparts/1/?format=json'
+        url = 'http://127.0.0.1:8080/api/v0/biketubes'
+        response = requests.get(url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_component(self):
+        data = {}
+        url = 'http://127.0.0.1:8080/api/v0/component/1?format=json'
         response = requests.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
