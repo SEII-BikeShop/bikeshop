@@ -28,7 +28,11 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install django
+        pip install djangorestframework
+        pip install django-filter
+        pip install django-crispy-forms
+        pip install mysql-client
     - name: Run Tests
       run: |
         python manage.py test --keepdb
