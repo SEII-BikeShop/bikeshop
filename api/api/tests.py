@@ -75,6 +75,10 @@ class Bike:
         response = requests.patch(url, data = data)
         return response
 
+    def delete(self):
+        url = 'http://127.0.0.1:8080/api/v0/bicycle/191919191'
+        response = requests.delete(url)
+        return response
 
 class EndpointTestCase(APITestCase):
 
@@ -199,3 +203,8 @@ class EndpointTestCase(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         bike.delete()
 
+    def test_delete_bike(self):
+        bike = Bike()
+        bike.create()
+        response = bike.delete()
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
