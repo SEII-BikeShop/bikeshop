@@ -35,4 +35,4 @@ jobs:
         pip install requests
     - name: Run Tests
       run: |
-        python manage.py test --keepdb
+        python api/manage.py test --keepdb
