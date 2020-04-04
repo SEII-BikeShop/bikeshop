@@ -83,7 +83,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'bikeshop',
         'USER': USER,
-        'PASSWORD': PASS
+        'PASSWORD': PASS,
+        'PORT': 3306
     }
 }
 

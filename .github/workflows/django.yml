@@ -53,5 +53,6 @@ jobs:
         cp api/configs/config.py.example api/configs/config.py
     - name: Run Tests
       run: |
+        sudo service mysql start
         python api/manage.py runserver 127.0.0.1:8080 &
         python api/manage.py test --keepdb
