@@ -42,12 +42,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install django
-        pip install djangorestframework
-        pip install django-filter
-        pip install django-crispy-forms
-        pip install mysqlclient
-        pip install requests
+        pip install -r requirements.txt
     - name: Copy Config
       run: |
         cp api/configs/config.py.example api/configs/config.py
