@@ -15,7 +15,8 @@
     * django-filter
     * django-crispy-forms
     * mysql-client
-  
+    * requests
+
 ## Service Preparation
 1. Deploy MySQL script to populate MySQL with the database and tables.
 2. Select the new `bikeshop` database.
