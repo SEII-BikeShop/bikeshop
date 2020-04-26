@@ -31,4 +31,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python manage.py test --keepdb
+        xenon --max-absolute B --max-modules B --max-average B api
+        xenon --max-absolute B --max-modules B --max-average B web
