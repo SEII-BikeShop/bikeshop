@@ -6,3 +6,4 @@ django-filter
 django-crispy-forms
 radon
 xenon
+requests
