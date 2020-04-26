@@ -31,4 +31,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        xenon --max-absolute B --max-modules B --max-average B
+        xenon --max-absolute B --max-modules B --max-average B api
+        xenon --max-absolute B --max-modules B --max-average B web
