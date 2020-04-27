@@ -18,7 +18,7 @@ jobs:
       mysql:
         image: mysql:5.7
         env:
-          MYSQL_USER: user
+          MYSQL_USER: root
           MYSQL_PASSWORD: please
           MYSQL_DATABASE: test_bike
           MYSQL_ROOT_PASSWORD: please
