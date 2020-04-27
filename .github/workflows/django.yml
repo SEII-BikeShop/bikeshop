@@ -14,17 +14,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    services:
-      mysql:
-        image: mysql:5.7
-        env:
-          MYSQL_USER: user
-          MYSQL_PASSWORD: please
-          MYSQL_DATABASE: bikeshop
-          MYSQL_ROOT_PASSWORD: please
-        ports:
-          - 3306
-        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+    # services:
+    #   mysql:
+    #     image: mysql:5.7
+    #     env:
+    #       MYSQL_USER: user
+    #       MYSQL_PASSWORD: please
+    #       MYSQL_DATABASE: bikeshop
+    #       MYSQL_ROOT_PASSWORD: please
+    #     ports:
+    #       - 3306
+    #     options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
 
 
     strategy:
@@ -45,10 +45,6 @@ jobs:
       - name: Copy Config
         run: |
           cp api/configs/config.py.example api/configs/config.py
-      - name: Verify MySQL connection from host
-        run: |
-          sudo apt-get install -y mysql-client
-          mysql --host 127.0.0.1 --port ${{ job.services.mysql.ports['3306'] }} -uroot -ppassword -e "SHOW DATABASES"
       - name: Run Unit Tests
         run: |
           python api/manage.py test
