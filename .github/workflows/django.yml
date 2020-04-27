@@ -14,17 +14,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # services:
-    #   mysql:
-    #     image: mysql:5.7
-    #     env:
-    #       MYSQL_USER: user
-    #       MYSQL_PASSWORD: please
-    #       MYSQL_DATABASE: bikeshop
-    #       MYSQL_ROOT_PASSWORD: please
-    #     ports:
-    #       - 3306
-    #     options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+    services:
+      mysql:
+        image: mysql:5.7
+        env:
+          MYSQL_USER: user
+          MYSQL_PASSWORD: please
+          MYSQL_DATABASE: bikeshop
+          MYSQL_ROOT_PASSWORD: please
+        ports:
+          - 3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
 
 
     strategy:
@@ -47,8 +47,7 @@ jobs:
           cp api/configs/config.py.example api/configs/config.py
       - name: Run Unit Tests
         run: |
-          python api/manage.py test
-          python web/manage.py test
+          python ./api/manage.py shell > ./api/api/tests.py &
       - name: Run Xenon Tests
         run: |
           xenon --max-absolute B --max-modules B --max-average B api
