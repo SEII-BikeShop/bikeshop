@@ -20,7 +20,7 @@ jobs:
         env:
           MYSQL_USER: user
           MYSQL_PASSWORD: please
-          MYSQL_DATABASE: test_bike
+          MYSQL_DATABASE: bikeshop
           MYSQL_ROOT_PASSWORD: please
         ports:
           - 3306
