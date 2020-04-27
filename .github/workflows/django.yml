@@ -45,9 +45,10 @@ jobs:
       - name: Copy Config
         run: |
           cp api/configs/config.py.example api/configs/config.py
-      - name: SEE IF MYSQL RUNING
+      - name: Verify MySQL connection from host
         run: |
-          ps aux | grep mysql
+          sudo apt-get install -y mysql-client
+          mysql --host 127.0.0.1 --port ${{ job.services.mysql.ports['3306'] }} -uroot -ppassword -e "SHOW DATABASES"
       - name: Run Unit Tests
         run: |
           python api/manage.py test
