@@ -34,8 +34,8 @@ jobs:
         cp api/configs/config.py.example api/configs/config.py
     - name: Run Unit Tests
       run: |
-        python api/manage.py runserver 127.0.0.1:8080 &
         python api/manage.py test --keepdb
+        python web/manage.py test --keepdb
     - name: Run Xenon Tests
       run: |
         xenon --max-absolute B --max-modules B --max-average B api
