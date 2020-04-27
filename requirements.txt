@@ -1,0 +1,9 @@
+Django
+djangorestframework
+mysql
+mysqlclient
+django-filter
+django-crispy-forms
+radon
+xenon
+requests

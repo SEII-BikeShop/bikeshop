@@ -118,6 +118,9 @@ def update_bike(request, id):
 
     return render(request, 'edit.html', {'form': form, 'override_base': layout})
 
+
+# To create this bike, you need to ensure that serial number is exactly 1 greater than
+# the existing serial number. Also make sure that all foreign keys match existing records.
 def add_bike(request):
     layout = ''
     if request.session.get('account', False):
