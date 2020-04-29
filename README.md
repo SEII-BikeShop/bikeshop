@@ -41,6 +41,6 @@
 * Automated testing now performs two checks on the applications.
     * Django natively supports testing, provided by the `python3.8 manage.py test` command set.
     * Xenon (a wrapper for Radon) is an automated metrics suite, checking the cyclomatic complexity against a threshold value.
-          * We use Xenon to verify that our code has a minimum complexity rank of B, keeping maintainability high.
+    * We use Xenon to verify that our code has a minimum complexity rank of B, keeping our maintainability high.
     * If the Django tests fail, or if Xenon reports a complexity ranking lower than B, the automated tests will fail.
-          * In either of these cases, the code will need to be revised accordingly.
+    * In either of these cases, the code will need to be revised accordingly.
